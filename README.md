@@ -76,4 +76,4 @@ Adım [Josh Lockhart](http://twitter.com/codeguy).[Slim Framework](http://www.sl
 
 ## Lisans
 
-[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)gg
+[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)ggg
