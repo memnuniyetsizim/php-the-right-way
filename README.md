@@ -1,35 +1,34 @@
 # PHP: The Right Way
 
-## Overview
+## Giriş
 
-This is the GitHub Pages repository for the _PHP: The Right Way_ project.
+Bu _PHP: The Right Way_ projesi için Github Pages "repo"sudur.
 
-* This website is a Jekyll project.
-* Each section and sub-section are a Markdown file in `_posts/`.
-* Sub-sections have `isChild: true` in their front matter.
-* The navigation and page structure are automatically generated.
+* Bu site bir Jekyll projesidir.
+* Her bölüm ve alt bölümleri "_posts/" dizininde bir Markdown dosyasıdır.
+* Her alt bölümün başında `isChild: true` vardır.
+* Sayfa yapıları ve navigasyon otomatik oluşturulur.
 
-## Spread the Word!
+## Tanıtım
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP
-developers know where to find good information!
+_PHP: The Right Way_ sitenizde tanıtmak için bir banner'ı vardır. Bu konuda yardım edin ki yeni PHP geliştiricileri kaliteli bilgiyi nerde bulacaklarını bilsinler.
 
 [See Banner Images](http://www.phptherightway.com/banners.html)
 
-## How to Contribute
+## Nasıl Katkıda Bulunabilirim 
 
-1. Fork and edit
-2. Optionally install [Ruby](https://rvm.io/rvm/install/) with [Jekyll](https://github.com/mojombo/jekyll/) gem to preview locally
-3. Submit pull request for consideration
+1. Fork edin ve Düzenleyin.
+2. İsterseniz [Jekyll](https://github.com/mojombo/jekyll/) ile [Ruby](https://rvm.io/rvm/install/) üzerinden kendi bilgisayarınızda görüntüleyebilirsiniz. 
+3. Değerlendirilmesi için "Pull Request" isteği gönderin.
 
-### Contributor Style Guide
+### Katılımcı Rehberi
 
 1. Use American English spelling (*primary English repo only*)
-2. Use four (4) spaces to indent text; do not use tabs.
+2. Tab karakteri yerine 4 karakter boşluk kullanın.
 3. Wrap all text to 120 characters.
-4. Code samples should adhere to PSR-1 or higher.
+4. Kod örnekleri için [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) veya daha büyük standartlara bağlı kalın.
 
-## Where
+## Linkler
 
 <http://www.phptherightway.com>
 
@@ -38,32 +37,32 @@ developers know where to find good information!
 * [Ukrainian](http://iflista.github.com/php-the-right-way)
 * [Portuguese](http://br.phptherightway.com/)
 
-### Translations
+### Çeviri
 
-If you are interested in translating _PHP: The Right Way_, fork this repo on GitHub and publish your localized fork to your own GitHub Pages account. We'll link to your translation from the primary document.
+Eğer _PHP: The Right Way_'i çevirmek istiyorsanız, repo'yu fork edin ve kendi github hesabınızdan yayınlayın. Ana dökümandan çevirinize bağlantı vereceğiz. 
 
-To avoid fragmentation and reader confusion, please choose one of these options:
+Patçalanmaları ve okuyucu karışıklığını önlemek için lütfen birini seçin :
 
-1. We link to your GitHub Pages fork with `[username].github.com/php-the-right-way`
-2. We link to your GitHub Pages fork with a subdomain (e.g. "ru.phptherightway.com")
+1. Github sayfanıza bağlantı vermek `[username].github.com/php-the-right-way`
+2. Github sayfanıza subdomain ile bağlantı vermek (e.g. "ru.phptherightway.com")
 
-If you use a subdomain, enter the subdomain into the `CNAME` file, and ask us to setup DNS for you. If you do not use a subdomain, remove the `CNAME` file entirely else your fork will not build when pushed.
+Eğer bir subdomain kullanıyorsanız `CNAME` dosyasına domain bilgilerinizi giriniz ve DNS kurulumu için bize başvurun. Subdomain kullanmıyorsanız, `CNAME` dosaysını tamamen silin aksi durumda kendi fork'unuz çalışmayacaktır. 
 
-When your translation is ready, open an issue on the Issue Tracker to let us know.
+Çeviriniz bittiğinde bize bildirmek için bir issue(konu) açın .
 
-## Why
+## Niçin
 
-There's been a lot of discussion lately about how the PHP community lacks sufficient, credible information for programmers new to PHP. This repository aims to solve this problem.
+Son zamanlarda PHP topluluğunun yetersizliği hakkında bir çok tartışma oldu, PHP Programlamada yeniler için inandırıcı bilgi. Bu repo bu problemi çözemyi hedeflemektedir.
 
-## Who
+## Kim
 
-My name is [Josh Lockhart](http://twitter.com/codeguy). I'm the author of the [Slim Framework](http://www.slimframework.com/), and I work for [New Media Campaigns](http://www.newmediacampaigns.com/).
+Adım [Josh Lockhart](http://twitter.com/codeguy).[Slim Framework](http://www.slimframework.com/)'ün yazarıyım, ve [New Media Campaigns](http://www.newmediacampaigns.com/) şirketinde çalışmaktayım.
 
 ### Collaborators
 
 * [Kris Jordan](http://krisjordan.com/)
 * [Phil Sturgeon](http://philsturgeon.co.uk/)
 
-## License
+## Lisans
 
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)
