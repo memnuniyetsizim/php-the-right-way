@@ -1,6 +1,6 @@
 # Hoşgeldiniz
 
-WE'de yen ikullanıcılar için PHP hakkında kötü örnek olabilecek bir çok bilgi var. Bu durmalı. _PHP: The Right Way_ 
+Web'de yeni kullanıcılar için PHP hakkında kötü örnek olabilecek bir çok bilgi var. Bu durmalı. _PHP: The Right Way_ 
 okunması kolaydır, PHP pratikleri için iyi bir referansdır, kabul edilmiş standartları içerir ve web üzerindeki iyi 
 PHP örneklerine bağlantı vermektedir.
 
@@ -28,14 +28,14 @@ Bu belge, daha yararlı olmak için devamlı güncellenecek bir belgedir.
 
 ## Nasıl Katkıda Bulunurum
 
-Bu sitenin yeni kullanıcılar için yararlı olmasına yardımxı olun! [Contribute on GitHub][1]
+Bu sitenin yeni kullanıcılar için yararlı olmasına yardımcı olun! [GitHub Üzerinden Katkıda Bulunun][1]
 
 ## Banner
 
 _PHP: The Right Way_'ın sitenize yerleştirmek için bannerları var. Bunları sitenize yerleştirerek desteğinizi gösterin, 
 ve yeni kullanıcıların kaliteli bilgiye ulaşmasını sağlayın.
 
-[See Banner Images][2]
+[Resimleri Görün][2]
 
 [1]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
-[2]: /banners.html
+[2]: /php-the-right-way/banners.html
