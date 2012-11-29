@@ -1,2 +1,2 @@
-# Getting Started {#getting_started_title}
+# Başlangıç {#getting_started_title}
 
