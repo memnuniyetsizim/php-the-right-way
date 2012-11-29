@@ -1,42 +1,69 @@
-# Welcome
+# Hoşgeldiniz
 
-There's a lot of outdated information on the Web that leads new PHP users astray, propagating bad practices and bad
-code. This must stop. _PHP: The Right Way_ is an easy-to-read, quick reference for PHP best practices, accepted coding
-standards, and links to authoritative tutorials around the Web.
+İnternet üzerinde PHP ile ilgili geçerliliğini yitirmiş çok fazla bilgi bulunmakta.
+Bu da PHP ile yeni tanışanların günümüzde kullanılmayan, benimsenmeyen yaklaşımları
+ve deneyimleri izlemesine, kötü yazımış kodların üretilmesine neden olmakta.
+Buna artık bir son verilmeli. _PHP: Usulüne Uygun (PHP: The Right Way)_, PHP
+hakkında kolay anlaşılır, güncel ve pratik bilgiler, kabul görmüş kodlama
+standartları hakkında bilgiler ve internet üzerinde güvenilir eğitici web
+sitelerine bağlantılar içermektedir.
 
-## Translations
+There's a lot of outdated information on the Web that leads new PHP users astray,
+propagating bad practices and insecure code. _PHP: The Right Way_ is an easy-to-read,
+quick reference for PHP popular coding standards, links to authoritative tutorials
+around the Web and what the contributors consider to be best practices at the present
+time.
 
-_PHP: The Right Way_ is (or soon will be) translated into many different languages:
+_There is no canonical way to use PHP_. This website aims to introduce new PHP
+developers to some topics which they may not discover until it is too late, and aims
+to give seasoned pros some fresh ideas on those topics they've been doing for years
+without ever reconsidering. This website will also not tell you which tools to use, but
+instead offer suggestions for multiple options, when possible explaining the differences
+in approach and use-case.
+
+This is a living document and will continue to be updated with more helpful information
+and examples as they become available.
+
+## Çeviri
+
+_PHP: Usulüne Uygun_ birçok dilde çevirisi bulunmaktadır:
 
 * [English](http://www.phptherightway.com)
-* [Chinese](http://wulijun.github.com/php-the-right-way)
+* [Chinese (Simplified)](http://wulijun.github.com/php-the-right-way)
+* [French](http://eilgin.github.io/php-the-right-way/)
 * [Japanese](http://ja.phptherightway.com)
+* [Korean](http://wafe.github.io/php-the-right-way/)
+* [Indonesian](http://id.phptherightway.com/)
+* [Italian](http://it.phptherightway.com/)
 * [Polish](http://pl.phptherightway.com/)
 * [Portuguese](http://br.phptherightway.com/)
-* Russian (Coming Soon)
-* [Spanish](http://es.phptherightway.com)
+* [Romanian](https://bgui.github.io/php-the-right-way/)
+* [Russian](http://getjump.github.io/ru-php-the-right-way)
+* [Spanish](http://phpdevenezuela.github.io/php-the-right-way/)
 * [Ukrainian](http://iflista.github.com/php-the-right-way/)
 * [Bulgarian](http://bg.phptherightway.com/)
+* [German](http://rwetzlmayr.github.io/php-the-right-way/)
+* [Thai](https://apzentral.github.io/php-the-right-way/)
+* [Turkish](http://hkulekci.github.io/php-the-right-way/)
+* [Slovenian](http://sl.phptherightway.com)
 
-## Disclaimer
+## Feragatname
 
-_There is no canonical way to use PHP_. However, this website is a humble display of best practices,
-available options, and good information. It aims to introduce new PHP developers and to rethink seasoned pros with fresh
-ideas.
+_PHP'yi kullanmanın kuralsal, kesin bir yolu yoktur_. Fakat bu site uygun özellikleri ve yararlı bilgileri içeren en iyi kullanım yöntemini göstermeye çalışmaktadır. Bu site yeni kullanıcılar için bir başlangıç ve tecrübeli kişiler için fikirlerini tazeleme ortamıdır.
 
-This is a living document and will continue to be updated with more helpful information and examples as they become
-available.
+Bu site, daha yararlı olmak için devamlı güncellenecek bir belgedir.
 
-## How to Contribute
+## Nasıl Katkıda Bulunurum
 
-Help make this website the best resource for new PHP programmers! [Contribute on GitHub][1]
+Bu sitenin yeni kullanıcılar için yararlı olmasına yardımcı olun! [GitHub Üzerinden Katkıda Bulunun][1]
 
-## Spread the Word!
+## Afişler
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP developers
-know where to find good information!
+_PHP: Usulüne Uygun_'un sitenize yerleştirmek için afişleri var. Bunları sitenize yerleştirerek desteğinizi gösterin,
+ve yeni kullanıcıların doğru bilgiye ulaşmasını sağlayın.
 
-[See Banner Images][2]
+
+[Afişler][2]
 
 [1]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
-[2]: /banners.html
+[2]: /php-the-right-way/banners.html
