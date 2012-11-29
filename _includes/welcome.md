@@ -1,12 +1,12 @@
-# Welcome
+# Hoşgeldiniz
 
-There's a lot of outdated information on the Web that leads new PHP users astray, propagating bad practices and bad
-code. This must stop. _PHP: The Right Way_ is an easy-to-read, quick reference for PHP best practices, accepted coding
-standards, and links to authoritative tutorials around the Web.
+WE'de yen ikullanıcılar için PHP hakkında kötü örnek olabilecek bir çok bilgi var. Bu durmalı. _PHP: The Right Way_ 
+okunması kolaydır, PHP pratikleri için iyi bir referansdır, kabul edilmiş standartları içerir ve web üzerindeki iyi 
+PHP örneklerine bağlantı vermektedir.
 
-## Translations
+## Çeviri
 
-_PHP: The Right Way_ is (or soon will be) translated into many different languages:
+_PHP: The Right Way_ bir çok dilde çevirisi bulunmaktadır:
 
 * [English](http://www.phptherightway.com)
 * [Chinese](http://wulijun.github.com/php-the-right-way)
@@ -16,24 +16,24 @@ _PHP: The Right Way_ is (or soon will be) translated into many different languag
 * Russian (Coming Soon)
 * [Spanish](http://es.phptherightway.com)
 * [Ukrainian](http://iflista.github.com/php-the-right-way/)
+* [Turkish](http://hkulekci.github.com/php-the-right-way/)
 
-## Disclaimer
+## Feragat
 
-_There is no canonical way to use PHP_. However, this website is a humble display of best practices,
-available options, and good information. It aims to introduce new PHP developers and to rethink seasoned pros with fresh
-ideas.
+_PHP'yi kullanmanın bir standartı yoktur_. Ama, bu site en iyi kullanım yöntemini göstermeye çalışmaktadır, 
+uygun özellikleri ve  yararlı bilgileri içermektedir. Bu site yeni kullanıcılar bir başlangıç ve tecrübeli 
+kişilerin fikirlerini tazelemelerini hedefler.
 
-This is a living document and will continue to be updated with more helpful information and examples as they become
-available.
+Bu belge, daha yararlı olmak için devamlı güncellenecek bir belgedir.
 
-## How to Contribute
+## Nasıl Katkıda Bulunurum
 
-Help make this website the best resource for new PHP programmers! [Contribute on GitHub][1]
+Bu sitenin yeni kullanıcılar için yararlı olmasına yardımxı olun! [Contribute on GitHub][1]
 
-## Spread the Word!
+## Banner
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP developers
-know where to find good information!
+_PHP: The Right Way_'ın sitenize yerleştirmek için bannerları var. Bunları sitenize yerleştirerek desteğinizi gösterin, 
+ve yeni kullanıcıların kaliteli bilgiye ulaşmasını sağlayın.
 
 [See Banner Images][2]
 
