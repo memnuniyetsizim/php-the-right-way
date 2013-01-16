@@ -17,6 +17,7 @@ _PHP: The Right Way_ bir çok dilde çevirisi bulunmaktadır:
 * [Spanish](http://es.phptherightway.com)
 * [Ukrainian](http://iflista.github.com/php-the-right-way/)
 * [Turkish](http://hkulekci.github.com/php-the-right-way/)
+* [Bulgarian](http://bg.phptherightway.com/)
 
 ## Feragat
 
