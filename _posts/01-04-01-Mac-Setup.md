@@ -1,4 +1,5 @@
 ---
+title: Mac Kurulumu
 isChild: true
 ---
 
