@@ -2,22 +2,18 @@
 isChild: true
 ---
 
-## Mac Setup  {#mac_setup_title}
+## Mac Kurulumu  {#mac_setup_title}
 
-OSX comes prepackaged with PHP but it is normally a little behind the latest stable. Lion comes with PHP 5.3.6 and
-Mountain Lion has 5.3.10.
+OSX zaten php kurulu halde geliyor. Ancak biraz eski stable sürümünü barındırıyor. Lion PHP 5.3.6 ile geliyor. Mountain Lion ise 5.3.10 ile.
 
-To update PHP on OSX you can get it installed through a number of Mac [package managers][mac-package-managers], with
-[php-osx by Liip][php-osx-downloads] being recommended.
+OSX'de PHP'yi güncellemek için, bir dizi Mac [Paket Yöneticisi][mac-package-managers] ile paket edinebilirsiniz, [php-osx by Liip][php-osx-downloads] tavsiye edilir. 
 
-The other option is to [compile it yourself][mac-compile], in that case be sure to have installed either Xcode or
-Apple's substitute ["Command Line Tools for Xcode"][apple-developer] downloadable from Apple's Mac Developer Center.
+Dİğer bir seçenek ise PHP'yi [kendinizin derlemesidir][mac-compile], Bu durumda ise XCode ya da Apple's Mac Developer Center üzerinden ["Command Line Tools for Xcode"][apple-developer] aracını indirmeniz gerekmektedir.
 
-For a complete "all-in-one" package including PHP, Apache web server and MySQL database, all this with a nice control
-GUI, try [MAMP][mamp-downloads].
+Güzel bir arayüz ile hepsi içinde paketlerde bulunmaktadır. Örneğin : [MAMP][mamp-downloads]
 
-[mac-package-managers]: http://www.php.net/manual/en/install.macosx.packages.php
-[mac-compile]: http://www.php.net/manual/en/install.macosx.compile.php
+[mac-package-managers]: http://www.php.net/manual/tr/install.macosx.packages.php
+[mac-compile]: http://www.php.net/manual/tr/install.macosx.compile.php
 [xcode-gcc-substitution]: https://github.com/kennethreitz/osx-gcc-installer
 [apple-developer]: https://developer.apple.com/downloads
 [mamp-downloads]: http://www.mamp.info/en/downloads/index.html
