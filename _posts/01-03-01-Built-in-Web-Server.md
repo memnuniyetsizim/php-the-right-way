@@ -1,11 +1,11 @@
 ---
-title: Dahili web server
+title: Dahili Web Sunucusu
 isChild: true
 ---
 
-## Dahili web server {#builtin_web_server_title}
+## Dahili Web Sunucu {#builtin_web_server_title}
 
-PHP'yi  kurulum ve konfigürasyon zorlukları tam teşekküllü bir web server kurmaksızın öğrenmeye başlayabilirsiniz. Server'ı başlatmak için aşağıdaki kodları terminal arayüzünden projenizin ana dizininde çalıştırınız : 
+PHP'yi  kurulum ve konfigürasyon zorlukları tam teşekküllü bir web sunucu kurmaksızın öğrenmeye başlayabilirsiniz. Sunucuyu başlatmak için aşağıdaki kodları terminal arayüzünden projenizin ana dizininde çalıştırınız : 
 
     > php -S localhost:8000
 

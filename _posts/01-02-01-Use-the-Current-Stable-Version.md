@@ -1,11 +1,12 @@
 ---
-title: Use the Current Stable Version (5.4)
+title: Güncel ve Tutarlı Sürümü Kullanın (5.6)
 isChild: true
+anchor: guncel_ve_tutarli_surumunu_kullanin
 ---
 
-## Use the Current Stable Version (5.4) {#use_the_current_stable_version_54_title}
+## Güncel ve Tutarlı Sürümü Kullanın (5.6) {#guncel_ve_tutarli_surumunu_kullanin_title}
 
-If you are just getting started with PHP make sure to start with the current stable release of [PHP 5.4][php-release]. PHP has made great strides adding powerful [new features](#language_highlights) over the last few years. Don't let the minor version number difference between 5.2 and 5.4 fool you, it represents _major_ improvements. If you are looking for a function or it's usage, the documentation on the [php.net][php-docs] website will have the answer.
+PHP ile tanışmak istiyorsanız, tanışma sürecine güncel ve tutarlı sürüm olan [PHP 5.6][php-release] ile başlayın. PHP yıllardır gelişen [yeni özellikleri](#one_cikanlar) ile daha güçleniyor. 5.2 ve 5.6 sürümleri arasında ne kadar küçük fark varmış gibi görünsede çok _büyük_ geliştirmeler içermektedir. Eğer bir fonksiyonu arıyorsanız ya da nasıl kullanıldığını öğrenmek istiyorsanız [php.net][php-docs] sitesindeki belgeler size yardımcı olacaktır.
 
 [php-release]: http://www.php.net/downloads.php
-[php-docs]: http://www.php.net/manual/en/
+[php-docs]: http://www.php.net/manual/tr/
