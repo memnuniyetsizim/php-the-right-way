@@ -37,6 +37,7 @@ _PHP: The Right Way_ sitenizde tanıtmak için bir banner'ı vardır. Bu konuda 
 * [Ukrainian](http://iflista.github.com/php-the-right-way)
 * [Portuguese](http://br.phptherightway.com/)
 * [Bulgarian](http://bg.phptherightway.com/)
+* [Turkish](http://hkulekci.github.com/php-the-right-way)
 
 ### Çeviri
 
