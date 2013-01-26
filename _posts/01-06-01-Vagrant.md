@@ -4,20 +4,21 @@ isChild: true
 
 ## Vagrant {#vagrant_title}
 
-Running your application on different environments in development and production can lead to strange bugs 
-popping up when you go live. It's also tricky to keep different development environments up to date with the same 
-version for all libraries used when working with a team of developers. 
+Deliştirme ortamı ile yayınlama ortamınız fakrlı ise projenizi yayınladığınızda değişik hatalar ile 
+karşılaşabilirsiniz. Bir takım ile çalışıyorken farklı geliştirme ortamlarında tüm kütüphanelerin aynı 
+versiyonda güncel olabilmesi çok zorlaşıyor.
 
-If you are developing on Windows and deploying to Linux (or anything non-Windows) or are developing in a team, you 
-should consider using a virtual machine. This sounds tricky, but using [Vagrant][vagrant] you can set up a simple 
-virtual machine with only a few steps. These base boxes can then be set up manually, or you can use "provisioning" 
-software such as [Puppet][puppet] or [Chef][chef] to do this for you. Provisioning the base box is a great way to 
-ensure that multiple boxes are set up in an identical fashion and removes the need for you to maintain complicated 
-"set up" command lists. You can also "destroy" your base box and recreate it without many manual steps, making it
-easy to create a "fresh" installation.
+Eğer Wİndows bir makinede geliştirme yapıp Linux bir makinede yayınlıyorsanız veya bir takım ile geliştiryorsanız, 
+bir sanal makine kurmayı düşünmelisiniz. Bu zor gelebilir, ama [Vagrant][vagrant] kullanarak basit bir kaç adım 
+ile sanal bir makine kurabilirsiniz. Bu temel box'lar elle ayarlanabilir, veya bunu yapmak için [Puppet][puppet] 
+veya [Chef][chef] gibi "provisioning" yazılımları kullanabilirsiniz. Provisioning, birbirleri ile özdeş birden 
+fazla box kurulurken ve gerektiğinde silinirken, tekrarlanacak olan bir çok kurulum karmaşasından korunmak 
+için güzel bir yöntemdir. Bir box'ı silebilir ve hiç bir manuel yöntem kullanmadan tekrar oluşturabilirsiniz, 
+güzel bir kurulumu size sağlar. 
 
-Vagrant creates shared folders used to share your code between your host and your virtual machine, meaning you can 
-create and edit your files on your host machine and then run the code inside your virtual machine.
+Vargant kodlarınızı sunucu ya da sanal makine ile paylaşmanız için paylaşımlı bir klasör oluşturur. Bunun anlamı 
+siz sunucu makinedeki dosyalar yaratabilir ya da editleyebilirsiniz ve sonra sanal makinede bu kodları 
+çalıştırabilirsiniz.  
 
 [vagrant]: http://vagrantup.com/
 [puppet]: http://www.puppetlabs.com/
