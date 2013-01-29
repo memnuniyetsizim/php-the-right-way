@@ -2,10 +2,8 @@
 
 PHP topluluğu geniş ve çeşitlidir, sayısız kütüphane, framework ve bileşenlerden oluşur. Bunlardan birkaçını seçip bir 
 projede kullanmak bir PHP geliştiricisi için normaldir. PHP kodunda genel bir stile uymak farklı ve çeşitli 
-kütüphaneleri kullanmak ve karşılaştırmak açısından geliştiriciler için önemlidir.
-
-It is important that PHP code adhere (as close as possible) to a common code style to make it easy for developers to 
-mix and match various libraries for their projects.
+kütüphaneleri kullanmak ve karşılaştırmak açısından geliştiriciler için önemlidir. PHP kodunun genel kod stiline 
+olabildiğince uyması gerekiyor ki geliştiriciler kolaylıkla farklı kütüphaneleri karıştırıp eşleştirebilsinler.
 
 [Framework Interop Group][fig] (PHP Standartlar Grubu), [PSR-0][psr0], [PSR-1][psr1], [PSR-2][psr2] and [PSR-3][psr3] 
 olarak bilinen, bir dizi önerilmiş ve kabul görmüş önerilerdir. Komik isimler ile karıştırmayın(!), Bu öneriler Drupal, 
