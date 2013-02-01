@@ -1,9 +1,10 @@
-# Testing {#testing_title}
+# Test Etme {#testing_title}
 
-Writing automated tests for your PHP code is considered a best practice and can lead to well-built
-applications. Automated tests are a great tool for making sure your application
-does not break when you are making changes or adding new functionality and should not be ignored.
+Otomatize edilmiş testler yazmak en iyi yöntem olarak kabul edilir ve iyi geliştirilmiş bir 
+uygulama elde etmiş olursunuz. Yeni bir özellik eklediğinizde, bir özelliği düzenlediğinizde 
+ya da yoksaydığınızda otomatik oluşturulan testler uygulamanızın çakılmamasından emin
+olmak için muhteşem bir araçtır. 
 
-There are several different types of testing tools (or frameworks) available for PHP, which use 
-different approaches - all of which are trying to avoid manual testing and the need for large 
-Quality Assurance teams, just to make sure recent changes didn't break existing functionality.
+PHP için fakrlı yaklaşımlarda kullanılan bir kaç farklı test araçları (veya yapı(framwork)) 
+mevcuttur - tüm bunlar, sadece şu andaki fonksiyonaliteyi bozmadığından emin olmak için, elle 
+yapılan testleri ve geniş kalite güvence ekipleri ihtiyacını önlemeyi deniyor
