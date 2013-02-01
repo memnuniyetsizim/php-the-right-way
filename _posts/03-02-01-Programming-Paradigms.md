@@ -2,47 +2,47 @@
 isChild: true
 ---
 
-## Programming Paradigms {#programming_paradigms_title}
+## Programlama Paradigmaları {#programming_paradigms_title}
 
-PHP is a flexible, dynamic language that supports a variety of programming techniques. It has evolved dramatically over
-the years, notably adding a solid object-oriented model in PHP 5.0 (2004), anonymous functions and namespaces in PHP 5.3 
-(2009), and traits in PHP 5.4 (2012). 
+PHP çeşitli programlama tekniklerini destekleyen esnek ve dinamik bir dildir. 
+özellikle PHP 5.0 da katı bir nesne tabanlı model ekleyerek (2004), PHP 5.3 de "anonymous functions" ve "namespaces" 
+(2009) ve PHP 5.4'de "traits" ekleyerek yıllar içerisinde önemli ölçüde gelişti.
 
-### Object-oriented Programming
+### Nesne Tabanlı Programlama
 
-PHP has a very complete set of object-oriented programming features including support for classes, abstract classes,
-interfaces, inheritance, constructors, cloning, exceptions, and more.
+PHP nesne tabanlı programlamanın "class", "abstract class", "interfaces", "inheritance", "constructors", "cloning", 
+"exception" ve daha fazlası bütün özelliklerini içermektedir
+
 
 * [Read about Object-oriented PHP][oop]
 * [Read about Traits][traits]
 
-### Functional Programming
+### Fonksiyonel Programlama
 
-PHP supports first-class function, meaning that a function can be assigned to a variable. Both user defined and built-in 
-functions can be referenced by a variable and invoked dynamically. Functions can be passed as arguments to other
-functions (feature called Higher-order functions) and function can return other functions.
+PHP, bir fonskiyonun bir değişkene atandığı "first-class" fonksiyonu, desteklemektedir. Kullanıcı tanımlı ve dahili 
+fonksiyonların ikiside bir değişkene referans edilebilir ve dinamik olarak çağırılabilir. Fonksiyon bir diğer fonksiyona 
+parametre olarak gönderilebilir (bu özellik "High-order functions olarak bilinir.") veya bir fonksiyondan geri döndürülebilirler.
 
-Recursion, a feature that allows a function to call itself is supported by the language, but most of the PHP code focus
-on iteration.
+Özyineleme(recursion), kendi kendini çağıran fonksiyon desteklenen bir özelliktir, ama bir çok PHP kodu iterasyona odaklanmaktadır.
 
-New anonymous functions (with support for closures) are present since PHP 5.3 (2009).
+Yeni anonymous fonksiyonları (closures için desteklenmektedir) PHP 5.3 ile gelmektedir. (2009)
 
 PHP 5.4 added the ability to bind closures to an object's scope and also improved support for callables such that they
 can be used interchangeably with anonymous functions in almost all cases.
 
-* Continue reading on [Functional Programming in PHP](/pages/Functional-Programming.html)
+* [Functional Programming in PHP](/pages/Functional-Programming.html) 
 * [Read about Anonymous Functions][anonymous-functions]
 * [Read about the Closure class][closure-class]
 * [More details in the Closures RFC][closures-rfc]
 * [Read about Callables][callables]
 * [Read about dynamically invoking functions with `call_user_func_array`][call-user-func-array]
 
-### Meta Programming
+### Meta Programlama
 
-PHP supports various forms of meta programming through mechanisms like the Reflection API and Magic Methods. There are
-many Magic Methods available like `__get()`, `__set()`, `__clone()`, `__toString()`, `__invoke()`, etc. that allow
-developers to hook into class behavior. Ruby developers often say that PHP is lacking `method_missing`, but it is
-available as `__call()` and `__callStatic()`.
+PHP Reflection API ve Magic Method gibi mekanizmalar aracılığıyla meta programlamayı desteklemektedir.
+`__get()`, `__set()`, `__clone()`, `__toString()`, `__invoke()`, gibi bir çok sihirli yöntemler (Magic Methods) vardır 
+ve bunlar geliştiriciye sınıfaların davranışlarını değiştirmelerine izin verirler. Ruby geliştiricileri genellikler 
+PHP'de `method_missing`in eksik olduğunu söylerler, ancak o  `__call()` ve `__callStatic()` olarak mevcuttur.
 
 * [Read about Magic Methods][magic-methods]
 * [Read about Reflection][reflection]
