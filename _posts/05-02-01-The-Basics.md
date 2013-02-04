@@ -9,4 +9,4 @@ biz sık sık dilin ilk öğrendiğimiz (veya gözden kaçırdığımız) kısay
 bölümde PHP içindeki basit temelleri hatırlatmayı amaçlamaktadır.
 
 
-* [Temelleri](/pages/The-Basics.html)'den okumaya devam edin.
+* [Temelleri](/php-the-right-way/pages/The-Basics.html)'den okumaya devam edin.
