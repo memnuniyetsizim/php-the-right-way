@@ -2,21 +2,21 @@
 isChild: true
 ---
 
-## Exceptions {#exceptions_title}
+## İstisnalar (Exceptions) {#exceptions_title}
 
-Exceptions are a standard part of most popular programming languages, but they are often overlooked by PHP programmers. 
-Languages like Ruby are extremely Exception heavy, so whenever something goes wrong such as a HTTP request failing, or 
-a DB query goes wrong, or even if an image asset could not be found, Ruby (or the gems being used) will throw an 
-exception to the screen meaning you instantly know there is a mistake. 
+İstisnalar bir çok programlama dilinin en popüler kısmıdır, ama genellikle PHP geliştiriciler için gözden kaçmıştır.
+Ruby gibi dillerde İstisnalar ağır derecede vardır, HTTP isteği hata vermesi, veya veritabanı sorgusu yanlış olduğunda, veya 
+resim bulunamadığında bile Ruby ekrana bir istisna tetikleyecektir.
 
-PHP itself is fairly lax with this, and a call to `file_get_contents()` will usually just get you a `FALSE` and a warning.
-Many older PHP frameworks like CodeIgniter will just return a false, log a message to their proprietary logs and maybe 
-let you use a method like `$this->upload->get_error()` to see what went wrong. The problem here is that you have to go 
-looking for a mistake and check the docs to see what the error method is for this class, instead of having it made extremely 
-obvious.
+PHP'nin kendisi bu konuda oldukça gevşektir, ve `file_get_contents()` çağrısı genellikle bir `FALSE` dönder ve bir uyarı gösterir.
+Codeigniter gibi bir çok eski PHP çatılarında sadece `false` dönecektir, hata mesajlarına ekleyecektir ve hatayı 
+`$this->upload->get_error()` bu gibi yöntemleri kullanarak görebilirsiniz. Buradaki problem, hatanın son derece bariz olması yerine 
+hatanın yerine bakmak ve hangi metotta olduğunu bulmak için dökümanlarına bakmak zorunda olmaktadır.
 
-Another problem is when classes automatically throw an error to the screen and exit the process. When you do this you 
-stop another developer from being able to dynamically handle that error. Exceptions should be thrown to make a developer aware 
+Diğer bir problem, sınıflar otomatik olarak bir hata fırlattıklarında ve işlemden çıkıldığındadır. 
+
+
+When you do this you stop another developer from being able to dynamically handle that error. Exceptions should be thrown to make a developer aware 
 of an error, then they can choose how to handle this. E.g:
 
 {% highlight php %}
@@ -40,21 +40,22 @@ catch(Fuel\Email\SendingFailedException $e)
 }
 {% endhighlight %}
 
-### SPL Exceptions
+### SPL İstisnalar
 
-An Exception by default has no meaning and the most common to give it meaning is by setting its name:
+Varsayılan bir istisnanın anlamı yoktur ve genelde isminde ayarlamalar ile ona bir anlam verilebilir :
 
 {% highlight php %}
 <?php
 class ValidationException extends Exception {}
 {% endhighlight %}
 
-This means you can add multiple catch blocks and handle different Exceptions differently. This can lead to 
-the creation of a <em>lot</em> of custom Exceptions, some of which could have been avoided using the SPL Exceptions 
-provided in the [SPL extension][splext]. 
+Birden fazla `catch` bloğu ile farklı istisnalar yakalayabilirsiniz. Bu bir sürü özel istisna yaratılmasına sebep olabilir,
+Bunlardan bazılarını [SPL extension][splext]'ın sunduğu SPL istisnalarını kullanarak önleyebilirsiniz.
 
-If for example you use the `__call()` Magic Method and an invalid method is requested then instead of throwing a standard 
-Exception which is vague, or creating a custom Exception just for that, you could just `throw new BadFunctionCallException;`.
+Eğer `__call()` sihirli metodunu kullanıyorsanız ve geçersiz bir metot talep edildiğinde standart istisnalar yerine ki onlar 
+belirsizler, sadece bunun için özel bir istisna oluşturabilirsiniz, `throw new BadFunctionCallException;` bu şekilde hatayı 
+elle oluşturabilirsiniz.
+
 
 * [Read about Exceptions][exceptions]
 * [Read about SPL Exceptions][splexe]
