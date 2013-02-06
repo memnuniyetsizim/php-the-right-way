@@ -2,23 +2,23 @@
 isChild: true
 ---
 
-## Command Line Interface {#command_line_interface_title}
+## Komut Satırı Arayüzü {#command_line_interface_title}
 
-PHP was created primarily to write web applications, but it's also useful for scripting command line interface (CLI) programs. Command line PHP programs can help you automate common tasks like testing, deployment, and application administrativia.
+PHP web uygulamaları geliştirmek için oluşturuldu, ama komut satırı (CLI) uygulamaları içinde yararlıdır. Komut Satırından çalışan PHP uygulamaları test etme, yayınlama ve uygulama yönetimi vs gibi uygulamaları otomatize etmenize yardımcı olabilir.
 
-CLI PHP programs are powerful because you can use your app's code directly without having to create and secure a web GUI for it. Just be sure not to put your CLI PHP scripts in your public web root!
+CLI PHP uygulamaları güvenli bir web arayüzü oluşturmadan direk olarak çalıştığı için güçlüdür. Sadece komut satırı uygulamanızı direk ana web anadizinine koymayınız!
 
-Try running PHP from your command line:
+Aşağıdaki komutları komut satırında çalıştırmayı deneyiniz : 
 
 {% highlight bash %}
 > php -i
 {% endhighlight %}
 
-The `-i` option will print your PHP configuration just like the [`phpinfo`][phpinfo] function. 
+`-i` özelliği PHP'nin konfigürasyonlarını [`phpinfo`][phpinfo] fonksiyonu gibi ekrana bastıracaktır.
 
-The `-a` option provides an interactive shell, similar to ruby's IRB or python's interactive shell. There are a number of other useful [command line options][cli-options], too.
+`-a` özelliği ise ruby'nin IRBsi veya python gibi interaktif bir kabuk sağlayacaktır. [command line options][cli-options]'dan daha fazla özelliğe ulaşabilirsiniz.
 
-Let's write a simple "Hello, $name" CLI program. To try it out, create a file named `hello.php`, as below.
+"Hello, $name" yazan basit bir CLI uygulaması yazalım. `hello.php` adında bir dosya oluşturup bunu çalıştırmayı deneyin.
 
 {% highlight php %}
 <?php
@@ -30,11 +30,11 @@ $name = $argv[1];
 echo "Hello, $name\n";
 {% endhighlight %}
 
-PHP sets up two special variables based on the arguments your script is run with. [`$argc`][argc] is an integer variable containing the argument *count* and [`$argv`][argv] is an array variable containing each argument's *value*. The first argument is always the name of your PHP script file, in this case `hello.php`.
+PHP kodunuz çalıştığında argümanlar için iki özel değişken oluşturmaktadır. [`$argc`][argc] argümanların *sayısını* içereren sayı(integer) tipinde bir değişkendir ve [`$argv`][argv] her bir argümanın *değerini* içeren değişken dizisidir. İlk argüman her zaman PHP kodunun çalıştırıldığı dosyanın adınıdır, bu örnekte `hello.php`dir. 
 
-The `exit()` expression is used with a non zero number to let the shell know that the command failed. Commonly used exit codes can be found [here][exit-codes]
+`exit()` kodu kabuğun komutun hata ile sonuçlandığını düşünmemesi için sıfır olmayan bir değişken ile kullanılmalıdır. Genelde kullanılan exit  komutları [buradadır][exit-codes].
 
-To run our script, above, from the command line:
+Kodumuzu çalıştırmak için aşağıdaki satırları kullanabilirsiniz : 
 
 {% highlight bash %}
 > php hello.php
