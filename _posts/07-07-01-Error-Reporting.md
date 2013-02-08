@@ -10,22 +10,18 @@ konfigüre edilmesi gerekebilir.
 
 ### Geliştirme
 
-<strong>Geliştirme</strong> ortamında olası her hatayı görmek için aşağıdaki satırları `php.ini` dosyanıza ekleyebilirsiniz. 
+Geliştirme ortamında olası her hatayı görmek için aşağıdaki satırları `php.ini` dosyanıza ekleyebilirsiniz. 
 
     display_errors = On
     display_startup_errors = On
     error_reporting = -1
     log_errors = On
 
-> `-1`, PHP'nin gelecekteki sürümlerinde yeni sabitler ve seviyeler eklense de olası her hatayı gösterecektir. `E_ALL` PHP 5.4'de 
-aynı işi görecektir. - [php.net](http://php.net/manual/function.error-reporting.php)
+> `-1`, PHP'nin gelecekteki sürümlerinde yeni sabitler ve seviyeler eklense de olası her hatayı gösterecektir. `E_ALL` PHP 5.4'de aynı işi görecektir. - [php.net](http://php.net/manual/function.error-reporting.php)
 
-`E_STRICT` hata seviyesi 5.3.0 sürümü ile başladı ve `E_ALL` ile aynı değildir, ama 5.4.0 sürümünde `E_ALL` ın bir parçası oldu.
-Bu yüzden `-1` ya da `E_ALL | E_STRICT` kullanmalısınız.
+`E_STRICT` hata seviyesi 5.3.0 sürümü ile başladı ve `E_ALL` ile aynı değildir, ama 5.4.0 sürümünde `E_ALL` ın bir parçası oldu. Bu yüzden `-1` ya da `E_ALL | E_STRICT` kullanmalısınız.
 
-
-
-**PHP versionlarına göre olası tüm ahta raporları**
+**PHP versionlarına göre olası tüm hata raporları**
 
 * &lt; 5.3 `-1` or `E_ALL`
 * &nbsp; 5.3 `-1` or `E_ALL | E_STRICT`
@@ -33,7 +29,7 @@ Bu yüzden `-1` ya da `E_ALL | E_STRICT` kullanmalısınız.
 
 ### Canlı Ortam
 
-Hataları <strong>canlı</strong> ortamda gizelemek için `php.ini` dosyasına aşağıdaki konfigürasyonları eklemelisiniz : 
+Hataları canlı ortamda gizelemek için `php.ini` dosyasına aşağıdaki konfigürasyonları eklemelisiniz : 
 
     display_errors = Off
     display_startup_errors = Off
