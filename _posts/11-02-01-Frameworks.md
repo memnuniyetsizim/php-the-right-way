@@ -1,23 +1,22 @@
 ---
+title: Çatı (Frameworks)
 isChild: true
 ---
 
-## Frameworks {#frameworks_title}
+## Çatı (Frameworks) {#frameworks_title}
 
-Rather than re-invent the wheel, many PHP developers use frameworks to build out web applications. Frameworks abstract away many of the low-level concerns and provide helpful, easy-to-use interfaces to complete common tasks.
+Tekerleği yeniden icat etmektense bir çok geliştirici çatı yapısını kullanır. Çatı birçok düşük seviye sorunları soyutlar, ortak sorunları çözmek için kullanımı kolay bir arayüz sunar.
 
-You do not need to use a framework for every project. Sometimes plain PHP is the right way to go, but if you do need a framework then there are three main types available:
+Her projede kullanmanız gerekmez. Bazen düz PHP doğru yoldur, ama bir çatı kullanmanız gerekirse 3 ana çeşidi vardır:
 
-* Micro Frameworks
-* Full-Stack Frameworks
-* Component Frameworks
+* Micro Frameworks (Mini Çatı)
+* Full-Stack Frameworks (Yığın Çatı)
+* Component-Based Frameworks (Bileşen Bazlı Çatı)
 
-Micro-frameworks are essentially a  wrapper to route a HTTP request to a callback, controller, method, etc as quickly as possible, and sometimes come with a few extra libraries to assist development such as basic database wrappers and the like. They are prominently used 
-to build remote HTTP services.
+Mini Çatı `callback`, `controller`, `method` gibi yapıların HTTP isteklerine mümkün olduğunda çabuk bir yönlendirme imkanı sağlar. Geliştirme sürecine yardım etmek için basit veritabanı işlemleri gibi bazı ekstra kütüphaneler ile birlikte gelir. HTTP servisleri oluşturmak için kullanılır.
 
-Many frameworks add a considerable number of features on top of what is available in a micro-framework and these are known Full-Stack 
-Frameworks. These often come bundled with ORMs, Authentication packages, etc.
+Bir çok çatı yapısında Mini Çatı bulunmaktadır ve üzerine önemli ölcüde özellikl eklenmesi ile oluşan yapılara Yığın Bazlı Çatı denir. Bu genellikle ORM'ler, Kimlik Doğrulama paketleri ile birlikte gelir.
 
-Component-based frameworks are collections of specialized and single-purpose libraries. Disparate component-based frameworks can be used together to make a micro- or full-stack framework.
+Bileşen Bazlı Çatı özel amaçlı kütüphaneler ve özel koleksiyonlar topluluğudur. Farklı Bileşen Bazlı Çatılar mini veya Yığın Bazlı Çatı kurmak için kullanılabilir.
 
-* [Popular PHP Frameworks](https://github.com/codeguy/php-the-right-way/wiki/Frameworks)
+* [Popüler PHP Çatıları](https://github.com/codeguy/php-the-right-way/wiki/Frameworks)
