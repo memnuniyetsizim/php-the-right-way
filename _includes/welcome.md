@@ -1,12 +1,10 @@
 # Hoşgeldiniz
 
-Web'de yeni kullanıcılar için PHP hakkında kötü örnek olabilecek bir çok bilgi var. Bu durmalı. _PHP: The Right Way_ 
-okunması kolaydır, PHP pratikleri için iyi bir referansdır, kabul edilmiş standartları içerir ve web üzerindeki iyi 
-PHP örneklerine bağlantı vermektedir.
+İnternet üzerinde PHP ile ilgili geçerliliğini yitirmiş çok fazla bilgi bulunmaktadır. Bu da PHP ile yeni tanışanların günümüzde kullanılmayan ve benimsenmeyen yaklaşımları ve deneyimleri izlemesine, kötü yazımış kodların üretilmesine neden olmakta. Buna artık bir son verilmeli. _PHP: Usulüne Uygun (PHP: The Right Way)_, PHP hakkında kolay anlaşılır, güncel ve pratik bilgiler, kabul görmüş kodlama standartları hakkında bilgiler ve internet üzerinde güvenilir eğitici web sitelerine bağlantılar içermektedir.
 
 ## Çeviri
 
-_PHP: The Right Way_ bir çok dilde çevirisi bulunmaktadır:
+_PHP: Usulüne Uygun_ bir çok dilde çevirisi bulunmaktadır:
 
 * [English](http://www.phptherightway.com)
 * [Chinese](http://wulijun.github.com/php-the-right-way)
@@ -19,13 +17,11 @@ _PHP: The Right Way_ bir çok dilde çevirisi bulunmaktadır:
 * [Turkish](http://hkulekci.github.com/php-the-right-way/)
 * [Bulgarian](http://bg.phptherightway.com/)
 
-## Feragat
+## Feragatname
 
-_PHP'yi kullanmanın bir standartı yoktur_. Ama, bu site en iyi kullanım yöntemini göstermeye çalışmaktadır, 
-uygun özellikleri ve  yararlı bilgileri içermektedir. Bu site yeni kullanıcılar bir başlangıç ve tecrübeli 
-kişilerin fikirlerini tazelemelerini hedefler.
+_PHP'yi kullanmanın bir kuralsal kesin bir yolu yoktur_. Ama, bu site uygun özellikleri ve yararlı bilgileri içeren en iyi kullanım yöntemini göstermeye çalışmaktadır. Bu site yeni kullanıcılar için bir başlangıç ve tecrübeli kişiler için fikirlerini tazeleme ortamıdır.
 
-Bu belge, daha yararlı olmak için devamlı güncellenecek bir belgedir.
+Bu site, daha yararlı olmak için devamlı güncellenecek bir belgedir.
 
 ## Nasıl Katkıda Bulunurum
 
@@ -33,10 +29,11 @@ Bu sitenin yeni kullanıcılar için yararlı olmasına yardımcı olun! [GitHub
 
 ## Banner
 
-_PHP: The Right Way_'ın sitenize yerleştirmek için bannerları var. Bunları sitenize yerleştirerek desteğinizi gösterin, 
-ve yeni kullanıcıların kaliteli bilgiye ulaşmasını sağlayın.
+_PHP: Usulüne Uygun_'un sitenize yerleştirmek için afişleri var. Bunları sitenize yerleştirerek desteğinizi gösterin, 
+ve yeni kullanıcıların doğru bilgiye ulaşmasını sağlayın.
 
-[Resimleri Görün][2]
+
+[Afişler][2]
 
 [1]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
 [2]: /php-the-right-way/banners.html

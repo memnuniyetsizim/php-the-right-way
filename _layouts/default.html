@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
     <head>
         <meta charset="utf-8"/>
-        <title>{% if page.title %}{{ page.title }} - {% endif %}PHP: The Right Way</title>
+        <title>{% if page.title %}{{ page.title }} - {% endif %}PHP: Usulüne Uygun</title>
         <meta name="description" content="{{ page.description }}"/>
         <meta name="robots" content="index,follow,archive"/>
         <meta property="og:image" content="http://www.phptherightway.com/images/og-logo.png"/>
-        <meta property="og:title" content="PHP: The Right Way"/>
-        <meta property="og:description" content="An easy-to-read, quick reference for PHP best practices, accepted coding standards, and links to authoritative PHP tutorials around the Web"/>
+        <meta property="og:title" content="PHP: Usulüne Uygun"/>
+        <meta property="og:description" content="Web üzerinde okunması kolay, uygulamalar için hızlı referans kaynağı olabilecek, kabul görmüş standartlara ve onaylanmış PHP örneklerine bağlantılar sağlayan bilgi kaynağı."/>
         <meta property="og:url" content="http://www.phptherightway.com"/>
-        <meta property="og:site_name" content="PHP: The Right Way"/>
+        <meta property="og:site_name" content="PHP: Usulüne Uygun"/>
         <meta property="og:type" content="website"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
         <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Droid+Serif:400,700' rel='stylesheet' type='text/css'>
@@ -31,7 +31,7 @@
     </head>
     <body>
         <nav class="site-navigation">
-            <div class="build-date">Last Updated: {{ site.time }}</div>
+            <div class="build-date">Son Güncelleme: {{ site.time }}</div>
             <ul>
                 <li><a href="/#site-header">Welcome</a></li>
                 {% assign lastIsChild = false %}
@@ -41,7 +41,7 @@
                     <li><a href="/php-the-right-way/#{{ post.title | downcase | replace:' ','_' | replace:'(','' | replace:')','' | replace:'.','' | replace:'-','' }}">{{ post.title }}</a>
                     {% assign lastIsChild = post.isChild %}
                 {% endfor %}
-                <li><a href="/#site-footer">Credits</a></li>
+                <li><a href="/#site-footer">Hazırlayanlar</a></li>
             </ul>
         </nav>
         <div class="site-content">
@@ -53,27 +53,27 @@
             <header class="site-header" id="site-header">
                 <hgroup>
                     <h1 class="site-title"><a href="/">PHP</a></h1>
-                    <h2 class="site-slogan">The Right Way.</h2>
+                    <h2 class="site-slogan">Usulüne Uygun.</h2>
                 </hgroup>
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hkulekci.github.com/php-the-right-way/" data-size="large" data-hashtags="php">Tweet</a>
             </header>
             {{ content }}
             <footer class="site-footer" id="site-footer">
-                <h2 class="epsilon">Created and maintained by</h2>
+                <h2 class="epsilon">Proje Sahibi ve Yöneticisi</h2>
                 <ul>
                     <li><a href="http://twitter.com/codeguy">Josh Lockhart</a></li>
                 </ul>
 
-                <h2 class="epsilon">Project collaborators</h2>
+                <h2 class="epsilon">Proje Ekibi</h2>
                 <ul>
                     <li><a href="http://krisjordan.com/">Kris Jordan</a></li>
                     <li><a href="http://philsturgeon.co.uk/">Phil Sturgeon</a></li>
                 </ul>
 
-                <h2 class="epsilon">Project contributors</h2>
-                <div id="contributors">Loading&hellip;</div>
+                <h2 class="epsilon">Katkıda Bulunanlar</h2>
+                <div id="contributors">Yükleniyor&hellip;</div>
 
-                <h2 class="epsilon">Project sponsors</h2>
+                <h2 class="epsilon">Sponsorlar</h2>
                 <ul class="mbd">
                     <li><a href="http://www.newmediacampaigns.com">New Media Campaigns</a></li>
                 </ul>

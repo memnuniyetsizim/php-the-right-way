@@ -1,11 +1,11 @@
 ---
-title: Şu anki Versiyonunu Kullanın (5.4)
+title: Güncel ve Tutarlı Sürümü Kullanın (5.4)
 isChild: true
 ---
 
-## Şu anki Versiyonunu Kullanın (5.4) {#use_the_current_stable_version_54_title}
+## Güncel ve Tutarlı Sürümü Kullanın (5.4) {#use_the_current_stable_version_54_title}
 
-Başlamak istiyorsanız PHP nin şu anda sabit sürümü ile başlayın [PHP 5.4][php-release]. PHP yıllardır gelişen yeni [yeni özellikleri](#language_highlights) ile daha güçleniyor. 5.2 ve 5.4 versiyonları arasındaki ne kadar küçük fark varmış gibi görünsede çok _büyük_ geliştirmeler içermektedir. Eğer bir fonksiyona ya da nasıl kullanıldığına bakıyorsanız [php.net][php-docs] dökümantasyonu size cevap olacaktır.
+PHP ile tanışmak istiyorsanız, tanışma sürecine güncel ve tutarlı sürüm olan [PHP 5.4][php-release] ile başlayın. PHP yıllardır gelişen yeni [yeni özellikleri](#language_highlights) ile daha güçleniyor. 5.2 ve 5.4 versiyonları arasındaki ne kadar küçük fark varmış gibi görünsede çok _büyük_ geliştirmeler içermektedir. Eğer bir fonksiyonu arıyorsanız ya da nasıl kullanıldığını öğrenmek istiyorsanız [php.net][php-docs] sitesindeki belgeler size cevap verecektir.
 
 [php-release]: http://www.php.net/downloads.php
-[php-docs]: http://www.php.net/manual/en/
+[php-docs]: http://www.php.net/manual/tr/
