@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Afişler
-description: "Spread the word! Use these banner to let new PHP programmers know about PHP: Usulüne Uygun"
+description: "Çevrene yay! Bu afişleri kullanarak PHP geliştiricilerinin _PHP: Usulüne Uygun_ projesini farketmelerini sağla."
 ---
 
 # Afişler
