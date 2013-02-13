@@ -3,7 +3,7 @@ title: Güncel ve Tutarlı Sürümü Kullanın (5.4)
 isChild: true
 ---
 
-## Güncel ve Tutarlı Sürümü Kullanın (5.4) {#use_the_current_stable_version_54_title}
+## Güncel ve Tutarlı Sürümü Kullanın (5.4) {#guncel_ve_tutarli_surumu_kullanin_title}
 
 PHP ile tanışmak istiyorsanız, tanışma sürecine güncel ve tutarlı sürüm olan [PHP 5.4][php-release] ile başlayın. PHP yıllardır gelişen yeni [yeni özellikleri](#language_highlights) ile daha güçleniyor. 5.2 ve 5.4 versiyonları arasındaki ne kadar küçük fark varmış gibi görünsede çok _büyük_ geliştirmeler içermektedir. Eğer bir fonksiyonu arıyorsanız ya da nasıl kullanıldığını öğrenmek istiyorsanız [php.net][php-docs] sitesindeki belgeler size cevap verecektir.
 

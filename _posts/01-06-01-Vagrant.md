@@ -1,8 +1,9 @@
 ---
+title: Vagrant (Sanal Sunucu)
 isChild: true
 ---
 
-## Vagrant {#vagrant_title}
+## Vagrant (Sanal Sunucu) {#vagrant_sanal_sunucu_title}
 
 Geliştirme ortamı ile yayınlama ortamınız fakrlı ise projenizi yayınladığınızda değişik hatalar ile 
 karşılaşabilirsiniz. Bir takım ile çalışıyorken farklı geliştirme ortamlarında tüm kütüphanelerin aynı 

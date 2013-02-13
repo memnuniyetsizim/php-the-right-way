@@ -1,8 +1,9 @@
 ---
+title: Windows Kurulumu
 isChild: true
 ---
 
-## Windows Kurulumu {#windows_setup_title}
+## Windows Kurulumu {#windows_kurulumu_title}
 
 PHP'nin Windows üzerinde kurulumu ile ilgili çeşitli yollar bulunmaktadır. ".msi" kurulum paketi olarak [indirebilirsiniz][php-downloads]. Bu kurulum dosyası PHP 5.3.0 dan sonra desteklememektedir.
 

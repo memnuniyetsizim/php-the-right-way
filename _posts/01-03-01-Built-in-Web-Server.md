@@ -3,12 +3,12 @@ title: Dahili Web Sunucusu
 isChild: true
 ---
 
-## Dahili Web Sunucu {#builtin_web_server_title}
+## Dahili Web Sunucusu {#dahili_web_sunucusu_title}
 
-PHP'yi  kurulum ve konfigürasyon zorlukları tam teşekküllü bir web sunucu kurmaksızın öğrenmeye başlayabilirsiniz. Sunucuyu başlatmak için aşağıdaki kodları terminal arayüzünden projenizin ana dizininde çalıştırınız : 
+PHP kullanmaya herhangi bir web sunucusu kurmadan ve ayarlama yapmadan başlayabilirsiniz (PHP 5.4 sürümü gereklidir). Dahili web sunucusunu başlatmak için aşağıdaki komutu, projenize ait dosyaların bulunduğu dizin içinde komut satırından çalıştırabilirsiniz: 
 
     > php -S localhost:8000
 
-* [Learn about the built-in, command line web server][cli-server]
+* [Dahili web sunucusu ve komut satırı hakkında belgeler][cli-server]
 
 [cli-server]: http://www.php.net/manual/en/features.commandline.webserver.php

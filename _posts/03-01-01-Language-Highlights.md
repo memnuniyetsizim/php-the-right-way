@@ -1,1 +1,1 @@
-# Language Highlights {#language_highlights_title}
+# Öne Çıkanlar {#one_cikanlar_title}
