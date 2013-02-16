@@ -1,19 +1,20 @@
 ---
+title: İsim Uzayları (Namespaces)
 isChild: true
 ---
 
-## Namespaces {#namespaces_title}
+## İsim Uzayları (Namespaces) {#isim_uzaylari_namespaces_title}
 
-As mentioned above, the PHP community has a lot of developers creating lots of code. This means that one library's PHP code may use the same class name as another library. When both libraries are used in the same namespace, they collide and cause trouble.
+Daha öncede bahsedildiği üzere, PHP topluluğu bir sürü geliştiriciden oluşmaktadır. Bu nedenle bazı durumlarda bir kaç farklı kütüphane aynı isimde kullanılmış olabiliyor. İki kütüphane aynı isim uzayında olduğunda çakışırlar ve bu soruna neden olur.
 
-_Namespaces_ solve this problem. As described in the PHP reference manual, namespaces may be compared to operating system directories that _namespace_ files; two files with the same name may co-exist in separate directories. Likewise, two PHP classes with the same name may co-exist in separate PHP namespaces. It's as simple as that.
+_İsim uzayları_ bu sorunu çözer. PHP referans kılavuzunda da açıklandığı gibi, isim uzayları işletim sistemlerindeki klasörler ile karşılaştırılabilir; aynı isimdeki iki dosya fakrlı dizinlerde bulunabilir. Aynı şekilde, aynı isimdeki iki sınıf farklı isim uzaylarında bulunabilir. Bu kadar basit. 
 
-It is important for you to namespace your code so that it may be used by other developers without fear of colliding with other libraries.
+Diğer geliştiricilerin geliştirdiği kütüphaneler ile çakışma korkusu olmadan geliştirme yapabilmeniz adına isim uzaylarını kullanmak sizin için iyi olabilir.
 
-One recommended way to use namespaces is outlined in [PSR-0][psr0], which aims to provide a standard file, class and namespace convention to allow plug-and-play code.
+[PSR-0][psr0] isim uzayları konusuna değinilmiştir ve birbiri ile uyumlu (plug-and-play code) standart dosya, sınıf ve isim uzayı düzeni kurmayı amaçlamaktadır.
 
-* [Read about Namespaces][namespaces]
-* [Read about PSR-0][psr0]
+* [İsim Uzayları hakkında][namespaces]
+* [PSR-0 hakkında][psr0]
 
-[namespaces]: http://php.net/manual/en/language.namespaces.php
+[namespaces]: http://php.net/manual/tr/language.namespaces.php
 [psr0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
