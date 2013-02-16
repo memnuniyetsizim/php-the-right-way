@@ -1,11 +1,11 @@
-# Resources {#resources_title}
+# Kaynaklar {#resources_title}
 
-## From the Source
+## Kaynak
 
 * [PHP Website](http://php.net/)
 * [PHP Documentation](http://php.net/docs.php)
 
-## People to Follow
+## Takip Etmek için Kişiler
 
 * [Rasmus Lerdorf](http://twitter.com/rasmus)
 * [Fabien Potencier](http://twitter.com/fabpot)
@@ -17,14 +17,16 @@
 * [Anthony Ferrara](http://twitter.com/ircmaxell)
 * [Nikita Popov](http://twitter.com/nikita_ppv)
 
-## Mentoring
+## Danışmanlık
 
-* [phpmentoring.org](http://phpmentoring.org/) - Formal, peer to peer mentoring in the PHP community.
+* [phpmentoring.org](http://phpmentoring.org/) - PHP topluluğunda örgün, birebir danışmanlık.
 
-## PHP PaaS Providers
+## PHP Servis Platformları (PaaS) Sağlayıcıları
 
 * [PagodaBox](https://pagodabox.com/)
 * [AppFog](https://appfog.com/)
+* [Heroku](https://heroku.com)
+  (PHP desteği dökümante edilmemiş ama tutarlı Facebook ortaklığı üzerine kurulu [[link]](http://net.tutsplus.com/tutorials/php/quick-tip-deploy-php-to-heroku-in-seconds/))
 * [fortrabbit](http://fortrabbit.com/)
 * [Engine Yard Orchestra PHP Platform](http://www.engineyard.com/products/orchestra/)
 * [Red Hat OpenShift Platform](http://www.redhat.com/products/cloud-computing/openshift/)

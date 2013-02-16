@@ -1,21 +1,22 @@
 ---
+title: Programlama Yaklaşımları
 isChild: true
 ---
 
-## Programlama Paradigmaları {#programming_paradigms_title}
+## Programlama Yaklaşımları {#programlama_yaklasimlari_title}
 
 PHP çeşitli programlama tekniklerini destekleyen esnek ve dinamik bir dildir. 
 özellikle PHP 5.0 da katı bir nesne tabanlı model ekleyerek (2004), PHP 5.3 de "anonymous functions" ve "namespaces" 
 (2009) ve PHP 5.4'de "traits" ekleyerek yıllar içerisinde önemli ölçüde gelişti.
 
-### Nesne Tabanlı Programlama
+### Nesne Tabanlı (Nesneye dayalı) Programlama
 
 PHP nesne tabanlı programlamanın "class", "abstract class", "interfaces", "inheritance", "constructors", "cloning", 
 "exception" ve daha fazlası bütün özelliklerini içermektedir
 
 
-* [Read about Object-oriented PHP][oop]
-* [Read about Traits][traits]
+* [Nesne tabanlı programlama hakkında][oop]
+* [Trait'ler hakkında][traits]
 
 ### Fonksiyonel Programlama
 
@@ -30,31 +31,31 @@ Yeni anonymous fonksiyonları (closures için desteklenmektedir) PHP 5.3 ile gel
 PHP 5.4 added the ability to bind closures to an object's scope and also improved support for callables such that they
 can be used interchangeably with anonymous functions in almost all cases.
 
-* [Functional Programming in PHP](/pages/Functional-Programming.html) 
-* [Read about Anonymous Functions][anonymous-functions]
-* [Read about the Closure class][closure-class]
-* [More details in the Closures RFC][closures-rfc]
-* [Read about Callables][callables]
-* [Read about dynamically invoking functions with `call_user_func_array`][call-user-func-array]
+* [PHP'de Fonksiyonel Programlama hakkında](/pages/Functional-Programming.html) 
+* ["Anonymous Functions" hakkında][anonymous-functions]
+* ["Closure class" hakkında][closure-class]
+* ["Closures RFC" hakkında][closures-rfc]
+* ["Callables" hakkında][callables]
+* [`call_user_func_array` ile dinamik olarak fonksiyon çağırmak hakkında][call-user-func-array]
 
 ### Meta Programlama
 
-PHP Reflection API ve Magic Method gibi mekanizmalar aracılığıyla meta programlamayı desteklemektedir.
-`__get()`, `__set()`, `__clone()`, `__toString()`, `__invoke()`, gibi bir çok sihirli yöntemler (Magic Methods) vardır 
-ve bunlar geliştiriciye sınıfaların davranışlarını değiştirmelerine izin verirler. Ruby geliştiricileri genellikler 
-PHP'de `method_missing`in eksik olduğunu söylerler, ancak o  `__call()` ve `__callStatic()` olarak mevcuttur.
+PHP, Reflection API ve Sihirli Yöntemler (Magic Methods) gibi bazı meta programlama mekanizmalarını destekler. 
+`__get()`, `__set()`, `__clone()`, `__toString()` ve `__invoke()` gibi Sihirli Yöntemler bulunmaktadır. Bunlar 
+geliştiriciye sınıfların davranışlarını değiştirmelerine izin verirler. Ruby geliştiricileri genellikler 
+PHP'de `method_missing`in eksik olduğunu söylerler, ancak bu `__call()` ve `__callStatic()` olarak mevcuttur.
 
-* [Read about Magic Methods][magic-methods]
-* [Read about Reflection][reflection]
+* [Sihirli yöntemler hakkında][magic-methods]
+* [Reflection hakkında][reflection]
 
-[namespaces]: http://php.net/manual/en/language.namespaces.php
-[overloading]: http://php.net/manual/en/language.oop5.overloading.php
-[oop]: http://www.php.net/manual/en/language.oop5.php
-[anonymous-functions]: http://www.php.net/manual/en/functions.anonymous.php
-[closure-class]: http://php.net/manual/en/class.closure.php
-[callables]: http://php.net/manual/en/language.types.callable.php
-[magic-methods]: http://php.net/manual/en/language.oop5.magic.php
-[reflection]: http://www.php.net/manual/en/intro.reflection.php
+[namespaces]: http://php.net/manual/tr/language.namespaces.php
+[overloading]: http://php.net/manual/tr/language.oop5.overloading.php
+[oop]: http://www.php.net/manual/tr/language.oop5.php
+[anonymous-functions]: http://www.php.net/manual/tr/functions.anonymous.php
+[closure-class]: http://php.net/manual/tr/class.closure.php
+[callables]: http://php.net/manual/tr/language.types.callable.php
+[magic-methods]: http://php.net/manual/tr/language.oop5.magic.php
+[reflection]: http://www.php.net/manual/tr/intro.reflection.php
 [traits]: http://www.php.net/traits
-[call-user-func-array]: http://php.net/manual/en/function.call-user-func-array.php
+[call-user-func-array]: http://php.net/manual/tr/function.call-user-func-array.php
 [closures-rfc]: https://wiki.php.net/rfc/closures
