@@ -1,12 +1,13 @@
 ---
+title: Tamamlayıcı Test Araçları
 isChild: true
 ---
 
-## Complementary Testing Tools {#complementary_testing_tools_title}
+## Tamamlayıcı Test Araçları {#tamamlayici_test_araclari_title}
 
-Besides individual testing and behavior driven frameworks, there are also a number of generic frameworks and helper libraries useful for any preferred approach taken.
+Bireysel testler ve davranış odaklı çatıların yanısıra, tek bir yöne yönelimi olmayan bir sürü kapsamlı çatı(framework) ve yardımcı kütüphaneler(helper library) vardır. 
 
-### Tool Links
+### Araç Bağlantıları
 
-* [Selenium](http://seleniumhq.org/) is a browser automation tool which can be [integrated with PHPUnit](http://www.phpunit.de/manual/3.1/en/selenium.html)
-* [Mockery](https://github.com/padraic/mockery) is a Mock Object Framework which can be integrated with [PHPUnit](http://phpunit.de/) or [PHPSpec](http://www.phpspec.net/)
+* [Selenium](http://seleniumhq.org/) tarayıcı otomatize etme aracıdır. [PHPUnit](http://www.phpunit.de/manual/3.1/en/selenium.html) ile bütünleşik kullanılabilir. 
+* [Mockery](https://github.com/padraic/mockery) bir Mock nesne çatısıdır. [PHPUnit](http://phpunit.de/) veya [PHPSpec](http://www.phpspec.net/) ile bütünleşik kullanılabilir. 
