@@ -1,3 +1,6 @@
+---
+title: Kaynaklar
+---
 # Kaynaklar {#kaynaklar_title}
 
 ## Kaynak

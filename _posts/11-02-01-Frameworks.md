@@ -3,7 +3,7 @@ title: Çatı (Frameworks)
 isChild: true
 ---
 
-## Çatı (Frameworks) {#catı_frameworks_title}
+## Çatı (Frameworks) {#cati_frameworks_title}
 
 Tekerleği yeniden icat etmektense bir çok geliştirici çatı yapısını kullanır. Çatı birçok düşük seviye sorunları soyutlar, ortak sorunları çözmek için kullanımı kolay bir arayüz sunar.
 
