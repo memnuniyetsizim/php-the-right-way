@@ -1,4 +1,4 @@
-# Kaynaklar {#resources_title}
+# Kaynaklar {#kaynaklar_title}
 
 ## Kaynak
 

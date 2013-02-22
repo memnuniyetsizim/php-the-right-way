@@ -2,7 +2,7 @@
 title: Kodlama Stili Rehberi
 ---
 
-# Kodlama Stili Rehberi  {#kodlama_stil_rehberi_title}
+# Kodlama Stili Rehberi  {#kodlama_stili_rehberi_title}
 
 PHP topluluğu geniş ve çeşitlidir, sayısız kütüphane, framework ve bileşenlerden oluşur. Bunlardan birkaçını seçip bir 
 projede kullanmak bir PHP geliştiricisi için normaldir. PHP kodunda genel bir stile uymak farklı ve çeşitli 
