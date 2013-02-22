@@ -1,7 +1,8 @@
 ---
+title: Paylaşımlı Sunucu
 isChild: true
 ---
 
-## Shared Servers {#shared_servers_title}
+## Paylaşımlı Sunucu {#paylasimli_sunucu_title}
 
-PHP has shared servers to thank for its popularity. It is hard to find a host without PHP installed, but be sure it's the latest version. Shared servers allow you and other developers to deploy websites to a single machine. The upside to this is that it has become a cheap commodity. The downside is that you never know what kind of a ruckus your neighboring tenants are going to create; loading down the server or opening up security holes are the main concerns. If your project's budget can afford to avoid shared servers you should.
+PHP'nin popülaritesine teşekkür etmek gerekir. PHP kurulu olmayan bir barındırıcı (host) bulmak zor. Ancak son sürüm olmasına dikkat edilmeli. Paylaşımlı sunucu diğer geliştiricilerle aynı makinede uygulamanı yayınlamana izin verir. Bunun artısı daha ucuz olmasıdır. Diğer taraftan komşunuz ne karıştıryor, ne yapıyor hiç bir zaman bilemiyorsunuz. Sunucu düşebilir ya da güvenlik açığı oluşabilir. Projenizin bütçesi dahilinde paylaşımlı sunuculardan kaçının. 

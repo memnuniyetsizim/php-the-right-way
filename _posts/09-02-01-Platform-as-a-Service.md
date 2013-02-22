@@ -5,8 +5,7 @@ isChild: true
 
 ## Platform as a Service (PaaS)  {#platform_as_a_service_paas_title}
 
-PaaS provides the system and network architecture necessary to run PHP applications on the web. This means little to no 
-configuration for launching PHP applications or PHP frameworks. 
+PaaS size PHP uygulamanızı çalıştırmanız için bir ağ mimarisi ve sistem sunar. Bunun anlamı, PHP uygulamanızı veya çatınızı çalıştırmak için çok az ayarlama yapmanız gerektiğidir. 
 
-Recently PaaS has become a popular method for deploying, hosting, and scaling PHP applications of all sizes. You can 
-find a list of [PHP PaaS "Platform as a Service" providers](#php_paas_providers) in our [resources section](#resources). 
+Son zamanlarda, PaaS dağıtım, barındırma ve PHP uygulamalarını ölçeklendirmede popüler bir yöntem oldu. [PHP PaaS "Platform as a Service" sağlayıcıları](#php_paas_providers) listesini [kaynaklar bölümünde](#resources) bulabilirsiniz. 
+ 
