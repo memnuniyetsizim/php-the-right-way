@@ -1,1 +1,5 @@
-# Kodlama Uygulamaları {#coding_practices_title}
+---
+title: Kodlama Uygulamaları
+---
+
+# Kodlama Uygulamaları {#kodlama_uygulamalari_title}

@@ -1,7 +1,10 @@
-# Bağımlılık Yönetimi {#dependency_management_title}
+---
+title: Bağımlılık (Dependency) Yönetimi
+---
 
-Seçmek için tonlarda PHP kütüphanesi, yapısı(frameworks) ve bileşeni bulunmaktadır. Projeniz bunlardan birkaçını kullanacaktır - bu proje bağımlılığıdır. 
-Yakın zamana kadar PHP'de bu bağımlılıkları yönetmek için uygun bir yol yoktu. Elle yönetilse bile, `autoloader` endişesi mevcuttu. Artık yok. 
+# Bağımlılık (Dependency) Yönetimi {#bagimlilik_dependency_yonetimi_title}
+
+Kullanabilmeniz için tonlarca PHP kütüphanesi, yapısı(frameworks) ve bileşeni(component) bulunmaktadır. Projeniz bunlardan birkaçını kullanacaktır - bu başlıkta projenizde kullandığınız kütüphanelere bağımlılığınızdan ve bunların yönetilmesinden bahsedeceğiz. Yakın zamana kadar PHP'de bu projeniz içerisinde barındırdığınız diğer kütüphane, çatı ya da bileşeni yönetmek için uygun bir yol yoktu. Elle yönetilse bile, `autoloader` endişesi mevcuttu. Ancak şu anda bu endişeye girmenize bir neden yok.
 
 Şu sıralarda PHP için iki büyük paket yönetim sistemi bulunmaktadır. `Composer` ve `PEAR`. Hanigis sizin için doğru? Cevap ikisi de.  
 
