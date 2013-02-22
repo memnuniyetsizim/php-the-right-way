@@ -1,8 +1,9 @@
 ---
+title: Web Uygulama Güvenliği
 isChild: true
 ---
 
-## Web Uygulama Güvenliği {#web_application_security_title}
+## Web Uygulama Güvenliği {#web_uygulama_guvenligi_title}
 
 Web uygulamalarından yararlanmaya hazır art niyetli bazı insanlar vardır. Uygulamanız için gerekli önlemleri 
 almak adına bu katı durum önemlidir. Neyse ki, bu gibi durumlara karşı alınması gereken güvenlik önlemler ve bilinmesi gerekenler

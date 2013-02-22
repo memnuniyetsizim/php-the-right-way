@@ -1,16 +1,13 @@
 ---
+title: Tasarım Desenleri (Design Patterns)
 isChild: true
 ---
 
-## Design Patterns {#design_patterns_title}
+## Tasarım Desenleri (Design Patterns) {#tasarim_desenleri_design_patterns_title}
 
-When you are building your application it is helpful to use common patterns in your code and common patterns for the
-overall structure of your project. Using common patterns is helpful because it makes it much easier to manage your code
-and lets other developers quickly understand how everything fits together.
+Uygulamanızı oluştururken kodunuzda ve projenizin yapısında genel bir desen kullanmak yararlı olacaktır. Desen kullanmak odunuzu yönetmeyi kolaylaştırdığı ve diğer geliştiricilerin herşeyin birbiri ile uyumunu daha kolay anlayabilmesini sağladığı için yararlıdır. 
 
-If you use a framework then most of the higher level code and project structure will be based on that framework, so a
-lot of the pattern decisions are made for you. But it is still up to you to pick out the best patterns to follow in the
-code you build on top of the framework. If, on the other hand, you are not using a framework to build your application
-then you have to find the patterns that best suit the type and size of application that you're building.
 
-* Continue reading on [Design Patterns](/pages/Design-Patterns.html)
+Eğer yüksek seviye kodla yazılmış bir çatı kullanıyorsanız projeniz bu çatı üzerine kurulacaktır. Bu çatı ile bazı desen kararları zaten hazırlanmış olacaktır. Ama çatı üzerine kodunuzu yazarak en iyi desen kararlarını ortaya çıkarabilirsiniz. Diğer taraftan, uygulamanızı geliştirirken bir çatı kullanmıyorsanız, projenizin türü ve boyutu ile uyumlu en iyi deseni bulmalısınız. 
+
+* [Tasarım Desenleri](/pages/Design-Patterns.html)

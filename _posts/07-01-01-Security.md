@@ -1,1 +1,5 @@
-# Güvenlik {#security_title}
+---
+title: Güvenlik
+---
+
+# Güvenlik {#guvenlik_title}
