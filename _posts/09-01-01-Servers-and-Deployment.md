@@ -1,3 +1,7 @@
-# Servers and Deployment {#servers_and_deployment_title}
+---
+title: Sunucular and Dağıtım
+---
 
-PHP applications can be deployed and run on production web servers in a number of ways.
+# Sunucular and Dağıtım {#sunucular_ve_dagitim_title}
+
+PHP uygulamalarını dağıtmanın ve web üzerinde yayınlamanın birkaç yolu vardır.
