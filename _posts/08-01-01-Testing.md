@@ -1,3 +1,7 @@
+---
+title: Test Etme
+---
+
 # Test Etme {#test_etme_title}
 
 Otomatize edilmiş testler yazmak, iyi geliştirilmiş bir uygulama elde etmiş ololmanın yanı sıra, 
