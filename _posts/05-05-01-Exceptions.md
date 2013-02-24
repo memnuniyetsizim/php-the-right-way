@@ -42,7 +42,8 @@ catch(Fuel\Email\SendingFailedException $e)
 
 ### SPL İstisnalar
 
-Varsayılan bir istisnanın anlamı yoktur ve genelde isminde ayarlamalar ile ona bir anlam verilebilir :
+Genel `Exception` sınıfı geliştiriciler için çok az ayıklama kaynağı sağlayabilir. Ancak, buna çare olarak, varsayılan `Exception` 
+sınıfını kapsayan özelliştirilmiş bir `Exception` sınıfı oluşturabilirsiniz:
 
 {% highlight php %}
 <?php
