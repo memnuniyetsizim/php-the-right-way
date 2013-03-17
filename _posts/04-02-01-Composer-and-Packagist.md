@@ -34,25 +34,21 @@ Bu kurulum adımlarının hiçbiri olmadan yapılan elle kurulumda, sizin için 
 
 `$HOME/local/bin` dizini (ya da sizin seçeceğiniz bir dizin) sizin `$PATH` değişkeninizin içerisinde olmalı. Bu `composer` komutunu kullanılabilir yapacaktır. 
 
-Dökümantaasyonda karşılaştığımız `php composer.phar install` komutunu aşağıdaki gibi kullanabilirsiniz : 
+Dökümantasyonda karşılaştığımız `php composer.phar install` komutunu aşağıdaki gibi kullanabilirsiniz : 
 
     composer install
 
 ### Bağımlıklıkları Nasıl Tanımlar ve Kurarız
 
-İlk olarak `composer.json` dosyasını `composer.phar` ile aynı dizinde oluşturuyoruz. Aşağıda [Twig][2]'i projemize ekleyelim.
+Composer proje bağımlılığını `composer.json` isimli bir dosya ile sağlar. Bu dosyayı elle ya da Composer vasıtasıyla güncelleyebilirsiniz. `php composer.phar require` komutu projenize bağımlılığı ekler ve daha önce oluşturmamış iseniz `composer.json` dosyanızı oluşturur. Aşağıda bir örnek yapalım ve projemize [Twig][2]'i ekleyelim. Aşağıdaki komutu projenizin ana dizininde çalıştırın. 
 
-	{
-	    "require": {
-	        "twig/twig": "1.8.*"
-	    }
-	}
+	php composer.phar require twig/twig:~1.8
 
-Daha sonra aşağıdaki komutları projenin ana dizininde çalıştırıyoruz.
+`php composer.phar init` komutu sana tam bir `composer.json` dosyası oluşturmak için rehber olabilir. Herhangi bir şekilde `composer.json` dosyanızı oluşturduktan sonra aşağıdaki komutu kullanarak Composer ile bağımlılıklarınızı `vendor/` dizini altına indirebilir ve yükleyebilirsiniz. 
 
     php composer.phar install
 
-Bu projenin bağımlı olduğu projeleri `vendors/` dizinine indirecektir ve kuracaktır. Daha sonra aşağıdaki satırları uygulamanızın ana PHP dosyasına ekleyiniz; bunları nasıl yapacağınız size zaten Composer'daki projelerde bildirilecek.
+Daha sonra aşağıdaki satırları uygulamanızın ana PHP dosyasına ekleyiniz; bunları nasıl yapacağınız size zaten Composer'daki projelerde bildirilecek.
 
 {% highlight php %}
 <?php
@@ -61,8 +57,20 @@ require 'vendor/autoload.php';
 
 Şimdi projenize eklediğiniz kütüphaneleri kullanabilirsiniz ve bunlar projenizde talep dahilinde otomatik yükleniyor (autoloaded) olacak.
 
-* [Composer hakkında][3]
+### Updating your dependencies
+
+Composer creates a file called `composer.lock` which stores the exact version of each package it downloaded when you first ran `php composer.phar install`. If you share your project with other coders and the `composer.lock` file is part of your distribution, when they run `php composer.phar install` they'll get the same versions as you. To update your dependencies, run `php composer.phar update`.
+
+This is most useful when you define your version requirements flexibly. For instance a version requirement of ~1.8  means "anything newer than 1.8.0, but less than 2.0.x-dev". You can also use the `*` wildcard as in `1.8.*`. Now Composer's `php composer.phar update` command will upgrade all your dependencies to the newest version that fits the restrictions you define.
+
+### Checking your dependencies for security issues
+
+The [Security Advisories Checker][3] is a web service and a command-line tool, both will examine your `composer.lock` file and tell you if you need to update any of your dependencies.
+
+* [Learn about Composer][4] 
+
 
 [1]: http://packagist.org/
 [2]: http://twig.sensiolabs.org
 [3]: http://getcomposer.org/doc/00-intro.md
+[4]: https://security.sensiolabs.org/ 
