@@ -1,18 +1,18 @@
 ---
+title: Bytecode Cache (Önbelleği)
 isChild: true
 ---
 
-## Bytecode Cache {#bytecode_cache_title}
+## Bytecode Cache (Önbelleği) {#bytecode_cache_onbellegi_title}
 
-When a PHP file is executed, under the hood it is first compiled to bytecode (also known as opcode) and, only then, the bytecode is executed.
-If a PHP file is not modified, the bytecode will always be the same. This means that the compilation step is a waste of CPU resources.
+PHP dosyaları çalıştırıldığı zaman, kodlar ilk olarak bytecode'a (aynı zamanda opcode olarak bilinir) derlenir ve daha sonra bytecode çalıştırılır. 
+Eğer PHP değiştirilmemişse, bytecode her zaman aynıdır.  Bunun anlamı derleme aşaması CPU kaynaklarını boşa zaman harcamak demektir.
 
-This is where Bytecode cache comes in. It prevents redundant compilation by storing bytecode in memory and reusing it on successive calls.
-Setting up bytecode cache is a matter of minutes, and your application will speed up significantly. There's really no reason not to use it.
+Bytecode gereksiz derlemeleri önlemek için bellekte saklanacaktır ve oradan çağırılacaktır. Kurulumu ve ayarlamaları sadece dakikalar alırken uygulamanız önemli ölçüde hızlanacaktır. Kurmamanız için hiç bir neden yok. 
 
-Popular bytecodes caches are:
+Popüler bytcode önbellek araçları:
 
-* [APC](http://php.net/manual/en/book.apc.php)
+* [APC](http://php.net/manual/tr/book.apc.php)
 * [XCache](http://xcache.lighttpd.net/)
 * [Zend Optimizer+](http://www.zend.com/products/server/) (part of Zend Server package)
 * [WinCache](http://www.iis.net/download/wincacheforphp) (extension for MS Windows Server)

@@ -1,23 +1,22 @@
 ---
+title: Bileşenler (Components)
 isChild: true
 ---
 
-## Components {#components_title}
+## Bileşenler (Components) {#bilesenler_components_title}
 
-As mentioned above "Components" are another approach to the common goal of creating, distributing and implementing shared code. Various 
-component repositories exist, the main two of which are:
+Daha öncede değinildiği üzere "Bileşenler" paylaşımlı kod, yayınlama ve oluşturma aşamalarında genel bir amaç için diğer bir yaklaşımdır. 
+Bir çok bileşen deposu vardır. Bunlardan ana iki tanesi:
 
-* [Packagist](/#composer_and_packagist)
-* [PEAR](/#pear)
+* [Packagist](/php-the-right-way/#composer_and_packagist)
+* [PEAR](/php-the-right-way/#pear)
 
-Both of these repositories have command line tools associated with them to help the installation and upgrade processes, and have been 
-explained in more detail in the [Dependency Management][dm] section.
+İki araçta yüklem ve yükseltme işlemlerinde yardımcı olmak için komut satırında çalışan bir arayüze sahiptir. Daha fazla bilgi için 
+[Bağımlılık Yönetimi][dm] bölümüne bakabilirsiniz.
 
-There are also component-based frameworks, which allow you to use their components with minimal (or no) requirements. For example, you 
-can use the [FuelPHP Validation package][fuelval], without needing to use the FuelPHP framework itself. These projects are essentially 
-just another repository for reusable components:
+Çatının kendisini kullanmaksızın kendi bileşenlerini kullanmanıza izin veren bileşen bazlı çatılar vardır. Örneğin, [FuelPHP Validation package][fuelval]'ı FuelPHP çatısını kullanmandan da kullanabilirsiniz.
 
-  [dm]: /#dependency_management
+  [dm]: /php-the-right-way/#bagimlilik_dependency_yonetimi
   [fuelval]: https://github.com/fuelphp/validation
 
 * [Aura](http://auraphp.github.com/)
