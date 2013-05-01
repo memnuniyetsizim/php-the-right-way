@@ -7,8 +7,10 @@
 _PHP: Usulüne Uygun_ birçok dilde çevirisi bulunmaktadır:
 
 * [English](http://www.phptherightway.com)
+* [Catalan](http://ca.phptherightway.com)
 * [Chinese](http://wulijun.github.com/php-the-right-way)
 * [Japanese](http://ja.phptherightway.com)
+* [Italian](http://it.phptherightway.com)
 * [Polish](http://pl.phptherightway.com/)
 * [Portuguese](http://br.phptherightway.com/)
 * Russian (Coming Soon)
@@ -16,6 +18,7 @@ _PHP: Usulüne Uygun_ birçok dilde çevirisi bulunmaktadır:
 * [Ukrainian](http://iflista.github.com/php-the-right-way/)
 * [Turkish](http://hkulekci.github.com/php-the-right-way/)
 * [Bulgarian](http://bg.phptherightway.com/)
+* [German](http://rwetzlmayr.github.io/php-the-right-way/)
 
 ## Feragatname
 
