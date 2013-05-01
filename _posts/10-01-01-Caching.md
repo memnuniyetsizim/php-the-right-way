@@ -1,4 +1,3 @@
 # Caching {#caching_title}
 
-PHP is pretty quick by itself, but bottlenecks can arise when you make remote connections, load files, etc. 
-Thankfully, there are various tools available to speed up certain parts of your application, or reduce the number of times these various time consuming tasks need to run.
+PHP oldukça hızlıdır, ancak dosya okuma, uzak bilgisayara bağlantı gibi işlemlerde bazı darboğazlar oluşmaktadır. Neyse ki, uygulamanızın belli kısımlarını hızlandırmanız için, veya belirli bir zamandaki kaynakların kullanımını azaltmak için çeşitli araçlar bulunmakta.

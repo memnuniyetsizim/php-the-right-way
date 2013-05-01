@@ -29,7 +29,7 @@ title: Kaynaklar
 * [PagodaBox](https://pagodabox.com/)
 * [AppFog](https://appfog.com/)
 * [Heroku](https://heroku.com)
-  (PHP desteği dökümante edilmemiş ama tutarlı Facebook ortaklığı üzerine kurulu [[link]](http://net.tutsplus.com/tutorials/php/quick-tip-deploy-php-to-heroku-in-seconds/))
+  (PHP desteği dökümante edilmemiş ama tutarlı Facebook ortaklığı üzerine kurulu [link](http://net.tutsplus.com/tutorials/php/quick-tip-deploy-php-to-heroku-in-seconds/))
 * [fortrabbit](http://fortrabbit.com/)
 * [Engine Yard Orchestra PHP Platform](http://www.engineyard.com/products/orchestra/)
 * [Red Hat OpenShift Platform](http://www.redhat.com/products/cloud-computing/openshift/)
