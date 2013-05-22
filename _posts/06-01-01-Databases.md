@@ -2,7 +2,7 @@
 title: Veritabanları
 ---
 
-# Veritabanları {#databases_title}
+# Veritabanları {#veritabanlari_title}
 
 Bilginin devamlılığı için bir çok zaman kodunuzda veritabanını kullanırsınız. Veritabanına bağlanmak için bir kaç yolunuz vardır. _PHP 5.1.0'e kadar_ PHP'de bulunan [mysql][mysql], [mysqli][mysqli], [pgsql][pgsql] gibi veritabanı sürücülerini kullanabilirsiniz.
 

@@ -4,7 +4,7 @@ title: Test Etme
 
 # Test Etme {#test_etme_title}
 
-Otomatize edilmiş testler yazmak, iyi geliştirilmiş bir uygulama elde etmiş ololmanın yanı sıra, 
+Otomatize edilmiş testler yazmak, iyi geliştirilmiş bir uygulama elde etmiş olmanın yanı sıra, 
 iyi yöntem olarak kabul edilir. Yeni bir özellik eklediğinizde, bir özelliği düzenlediğinizde 
 ya da yoksaydığınızda otomatik oluşturulan testler uygulamanızın çakılmamasından emin
 olmak için muhteşem bir araçtır. 

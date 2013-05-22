@@ -1,20 +1,25 @@
-# Community {#community_title}
+---
+title: Topluluk
+isChild: true
+---
 
-The PHP community is as diverse as it is large, and its members are ready and willing to support new PHP programmers. Consider joining your local PHP user group (PUG) or attending larger PHP conferences to learn more about the best practices shown here. You can hang out on IRC in the #phpc channel on [irc.freenode.com][php-irc] and follow the [@phpc][phpc-twitter] twitter account. Get out there, meet new developers, learn new topics, and above all, make new friends! Other community resources include the Google+ PHP [Programmer community][php-programmers-gplus] and [StackOverflow][php-so].
+# Topluluk {#topluluk_title}
 
-[Read the Official PHP Events Calendar][php-calendar]
+Büyük olduğu kadar farklı(çeşitlilik açısından) PHP toplulukları mevcuttur ve bu toplulukların üyeleri yeni PHP yazılımcılarını desteklemeye hazır ve isteklidir. Yerel PHP gruplarına katılarak veya daha büyük PHP konferanslarına katılarak PHP hakkında daha iyi bilgiler edinebilir ve daha iyi örneklere ulaşabilirsiniz. PHP'nin [irc.freenode.com][php-irc] adresindeki #phpc IRC kanalında takılabilirsin ve twitter üzerinden [@phpc][phpc-twitter] hesabını takip edebilirsin. Yeni geliştiricilerle tanışabilirsin, yeni konular öğrenebilirsin veya yeni arkadaşlar edinebilirsin. Google+ PHP [Programmer community][php-programmers-gplus] ve [StackOverflow][php-so] PHP geliştiricilerinin takıldığı diğer yerlerdir.
 
-## PHP User Groups
+[Resmi PHP Etkinlikleri Takvimi Hakkında][php-calendar]
 
-If you live in a larger city, odds are there's a PHP user group nearby. Although there's not yet an official list of PUGs, you can easily find your local PUG by searching on [Google][google] or [Meetup.com][meetup]. If you live in a smaller town, there may not be a local PUG; if that's the case, start one!
+## PHP Kullanıcı Grupları
 
-[Read about User Groups on the PHP Wiki][php-wiki]
+Büyük bir şehirde yaşıyorsanız, yakınlarınızda bir PHP kullanıcı grubu vardır. Resmin bir liste bulunmamasına rağmen [Google][google] veya [Meetup.com][meetup] üzeriden bu grupları arayabilirsiniz. Daha küçük bir şehirde yaşıyorsanız, yerel bir grup olmayabilir. Bu durumda siz bir tane başlatın. 
 
-## PHP Conferences
+[PHP Wiki'deki Kullanıcı Grupları Hakkında][php-wiki]
 
-The PHP community also hosts larger regional and national conferences in many countries around the world. Well-known members of the PHP community usually speak at these larger events, so it's a great opportunity to learn directly from industry leaders.
+## PHP Konferansları
 
-[Find a PHP Conference][php-conf]
+PHP toplulukları tarafından dünya üzerinde birçok ülkede bölgesel ve ulusal konferanslar düzenlemektedir. PHP topluluğundan bilinen kişiler genellikle büyük etkinliklerde konuşurlar, ve bu endüstrinin liderlerinden birşeyler öğrenmek için büyük bir fırsattır.
+
+[PHP konferansları][php-conf]
 
 [php-calendar]: http://www.php.net/cal.php
 [google]: https://www.google.com/search?q=php+user+group+near+me
