@@ -1,7 +1,7 @@
 ---
-title: Sunucular and Dağıtım
+title: Sunucular ve Dağıtım
 ---
 
-# Sunucular and Dağıtım {#sunucular_ve_dagitim_title}
+# Sunucular ve Dağıtım {#sunucular_ve_dagitim_title}
 
 PHP uygulamalarını dağıtmanın ve web üzerinde yayınlamanın birkaç yolu vardır.
