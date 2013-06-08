@@ -1,6 +1,6 @@
 ---
 title: Topluluk
-isChild: true
+isChild: false
 ---
 
 # Topluluk {#topluluk_title}

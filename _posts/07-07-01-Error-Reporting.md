@@ -1,8 +1,9 @@
 ---
+title: Hata Raporları
 isChild: true
 ---
 
-## Hata Raporları {#error_reporting_title}
+## Hata Raporları {#hata_raporlari_title}
 
 Hata logları uygulamanızdaki sorunları bulmak için yararlı olabilir, ama aynı zamanda dış dünyaya uygulama yapısı 
 hakkında bilgi gösterebilir. Bu gibi sorunlarda uygulamanızı korumak için geliştirme ve canlı ortamın farklı 

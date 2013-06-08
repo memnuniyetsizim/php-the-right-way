@@ -1,2 +1,7 @@
-# Başlarken {#getting_started_title}
+---
+title: Başlarken
+isChild: false
+---
+
+# Başlarken {#baslarken_title}
 
