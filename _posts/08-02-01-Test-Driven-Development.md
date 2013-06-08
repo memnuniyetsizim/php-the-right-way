@@ -1,57 +1,45 @@
 ---
+title: Test Odaklı Geliştirme
 isChild: true
 ---
 
-## Test Driven Development {#test_driven_development_title}
+## Test Odaklı Geliştirme {#test_odakli_gelistirme_title}
 
-From [Wikipedia](http://en.wikipedia.org/wiki/Test-driven_development):
+[Wikipedia](http://en.wikipedia.org/wiki/Test-driven_development)'den:
 
-> Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: first the developer writes a failing automated test case that defines a desired improvement or new function, then produces code to pass that test and finally refactors the new code to acceptable standards. Kent Beck, who is credited with having developed or 'rediscovered' the technique, stated in 2003 that TDD encourages simple designs and inspires confidence
+Test odaklı geliştirme (TOG) geliştirme döngüsünün küçük bir kısmının tekrarına dayana bir yazılım geliştirme sürecidir: ilk olarak geliştirici istenen bir özelliği ya da fonksiyonu tanımlayan (başlangıçta başarısız) bir test durumunu oluşturur, sonra testi geçmek için az sayıda kodlar eklenir ya da çıkarılır ve sonunda yazılımın işlevini ve davranışını değiştirmeden iç yapısında yapılan değişikliklerle yeni kod kabul edilir standartlara uygun bir hale getirilir. _Kent Beck, who is credited with having developed or 'rediscovered' the technique, stated in 2003 that TDD encourages simple designs and inspires confidence_
 
-There are several different types of testing that you can do for your application
+Uygulamanız için kullanabileceğiniz bir kaç çeşit test yöntemi vardır: 
 
-### Unit Testing
+### Birim Test (Unit Testing)
 
-Unit Testing is a programming approach to ensure functions, classes and methods are working as
-expected, from the point you build them all the way through the development cycle. By checking
-values going in and out of various functions and methods, you can make sure the internal logic is
-working correctly. By using Dependency Injection and building "mock" classes and stubs you can verify that dependencies are correctly used for even better test coverage.
+Unit Testing fonskiyonları, sınıfları ve metodları bir geliştirme döndüsü üzerinden tüm çalışma zamanında çalıştığından emin olmak için bir programlama yaklaşımıdır. Fonskiyonların ve metodların içindeki ya da dışındaki değişkenlerin değerlerini kontrol ederek iç mantığın doğru çalıştığını kontrol edebilirsiniz. Bağımlılık kontrolü ve sahte sınıflar ve taslaklar inşa ederek, bağımlılığı doğrulayabilirsiniz ve bu daha iyi bir test kapsamı için doğru kullanımdır.
 
-When you create a class or function you should create a unit test for each behavior it must have. At a very basic level you should
-make sure it errors if you send it bad arguments and make sure it works if you send it valid arguments.
-This will help ensure that when you make changes to this class or function later on in the development
-cycle that the old functionality continues to work as expected. The only alternative to this would be
-var_dump() in a test.php, which is no way to build an application - large or small.
+Bir sınıf ya da metod oluşturduğunuzda, bu sınıf ya da metodun her bir davranışı için bir birim test oluşturmalısınız. Basit seviyede, yanlış bir argüman gönderdiğinizde hata vereceğinden ve doğru bir argüman gönderdiğinizde çalışacağından emin olmalısınız. Geliştirme döngüsünde bu sınıf ya da metod içerisinde değişiklik olduğunda eski işlevleri umduğumuz gibi çalışacaktır. 
 
-The other use for unit tests is contributing to open source. If you can write a test that shows broken
-functionality (i.e. fails), then fix it, and show the test passing, patches are much more likely to be accepted. If
-you run a project which accepts pull requests then you should suggest this as a requirement.
+Birim test için diğer bir kullanım açıkkaynağa katkıda bulunmaktır. Bozuk işlevleri göstermek ve sonrasında düzeltmek için bir test yazabilirsiniz. Testi geçebildiğini gösterebilirsiniz. Bir projeyi çalıştırdığınızda gönderilen istekler için testi bir gereklilik olarak önerebilirsiniz. 
 
-[PHPUnit](http://phpunit.de) is the de-facto testing framework for writing unit tests for PHP
-applications, but there are several alternatives
+[PHPUnit](http://phpunit.de) PHP uygulamaları için birim test yazmak için de-facto test çatısıdır. Buna ek olarak bir kaç alternatif de bulunmaktadır.
 
 * [SimpleTest](http://simpletest.org)
 * [Enhance PHP](http://www.enhance-php.com/)
 * [PUnit](http://punit.smf.me.uk/)
 * [atoum](https://github.com/atoum/atoum)
 
-### Integration Testing
+### Entegrasyon Test (Integration Testing)
 
-From [Wikipedia](http://en.wikipedia.org/wiki/Integration_testing):
+[Wikipedia](http://en.wikipedia.org/wiki/Integration_testing)'den:
 
-> Integration testing (sometimes called Integration and Testing, abbreviated "I&T") is the phase in software testing in which individual software modules are combined and tested as a group. It occurs after unit testing and before validation testing. Integration testing takes as its input modules that have been unit tested, groups them in larger aggregates, applies tests defined in an integration test plan to those aggregates, and delivers as its output the integrated system ready for system testing.
+Entegrasyon testi (bazen entegrasyon ve test olarakta anılır, kısaltılmış hali "I&T"dir.) uygulamanızdaki modüllerin birleştirildiği ve bir grup olarak test edildiği bir test aşamasıdır. Birim test (Unit Test) sonrası ve doğrulama testleri (Validation Testing) öncesi oluşturulur. Entegrasyon testinde birim testi yapılmış modülleri girdi olarak alınır, daha büyük gruplar oluşturacak şekilde birleştirilir, entegrasyon test planında tanımlanan testler uygulanır ve sistem testi için hazır bir şekilde entegra sistem sunulur.
 
-Many of the same tools that can be used for unit testing can be used for integration testing as many
-of the same principles are used.
+Birim test için kullanılan bir çok araç entegrasyon testi için de kullanılabilir. 
 
-### Functional Testing
 
-Sometimes also known as acceptance testing, functional testing consists of using tools to create automated
-tests that actually use your application instead of just verifying that individual units of code are behaving
-correctly and that individual units can speak to each other correctly. These tools typically work using real
-data and simulating actual users of the application.
+### Fonksiyonel Test (Functional Testing)
 
-#### Functional Testing Tools
+(acceptance testing) olarak da bilinen, fonksyonle test birimlerin birbirleri ile doğru konuşup konuşmadığını ve birimlerin tek tek düzgün çalışıp çalışmadığını kontrol etmek yerine uygulamanızı gerçekten kullanan otomatik test araçları oluşturmak için kullanılan araçlar kullanarak oluşturulur. Bu araçlar gerçek veriler ile ve gerçek kullanıcıları simule ederek çalışırlar. 
+
+#### Fonksiyonel Test Araçları
 
 * [Selenium](http://seleniumhq.com)
 * [Mink](http://mink.behat.org)
