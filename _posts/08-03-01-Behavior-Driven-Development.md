@@ -1,19 +1,23 @@
 ---
+title: Davranış Odaklı Geliştirme
 isChild: true
 ---
 
-## Behavior Driven Development {#behavior_driven_development_title}
+## Davranış Odaklı Geliştirme (Behaviour Driven Development) {#davranis_odakli_gelistirme_title}
 
-There are two different types of Behavior-Driven Development (BDD): SpecBDD and StoryBDD. SpecBDD focuses on technical behavior or code, while StoryBDD focuses on business or feature behaviors or interactions. PHP has frameworks for both types of BDD.
+İki tür Davranış Odaklı Geliştirme (Behavior-Driven Development - BDD) vardır: SpecBDD ve Story BDD. SpecBDD teknik 
+davranışa veya koda odaklanır. StoryBDD iş veya özellik davranışlarına ve etkileşimlerine odaklanır. PHP her iki 
+tür içinde çatıya sahiptir. 
 
-With StoryBDD, you write human-readable stories that describe the behavior of your application. These stories 
-can then be run as actual tests against your application. The framework used in PHP applications for StoryBDD
-is Behat, which is inspired by Ruby's [Cucumber](http://cukes.info/) project and implements the Gherkin DSL
-for describing feature behavior.
+StoryBDD ile, uygulamanızın davranışlarını açıklamak için okunabilir hikayeler yazabilirsiniz. Bu hikayeler 
+uygulamanıza karşı test olarak kullanılabilir. PHP uygulamanızda StoryBDD için Behat adındaki çatı kullanabilirsiniz. 
+Bu çatı Ruby için yazılmış [Cucumber](http://cukes.info/) çatısından ilham alınarak oluşturulmuş. 
+Hikayeleri oluşturmak için Gherkin DSL dili kullanılır. 
 
-With SpecBDD, you write specifications that describe how your actual code should behave. Instead of testing
-a function or method, you are describing how that function or method should behave. PHP offers the PHPSpec framework for this purpose. This framework is inspired
-by the [RSpec project](http://rspec.info/) for Ruby.
+SpecBDD ile kodunuzun gerçekteki davranışlarınızı açıklayan açıklamalar yazabilirsiniz. Fonksiyon ya da metodu 
+test etmek yerine, bu fonksiyon ya da metodun nasıl davrandığını açıklayabilirsiniz. PHP PHPSpec çatısını 
+bu amaç için sunmaktadır. Bu çatı için Ruby için yazılmış [RSpec project](http://rspec.info/) projesinden 
+ilham alınmıştır.
 
 ### BDD Links    
 
