@@ -10,4 +10,4 @@ Uygulamanızı oluştururken kodunuzda ve projenizin yapısında genel bir desen
 
 Eğer yüksek seviye kodla yazılmış bir çatı kullanıyorsanız projeniz bu çatı üzerine kurulacaktır. Bu çatı ile bazı desen kararları zaten hazırlanmış olacaktır. Ama çatı üzerine kodunuzu yazarak en iyi desen kararlarını ortaya çıkarabilirsiniz. Diğer taraftan, uygulamanızı geliştirirken bir çatı kullanmıyorsanız, projenizin türü ve boyutu ile uyumlu en iyi deseni bulmalısınız. 
 
-* [Tasarım Desenleri](/pages/Design-Patterns.html)
+* [Tasarım Desenleri](/php-the-right-way/pages/Design-Patterns.html)

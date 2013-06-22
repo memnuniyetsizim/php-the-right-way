@@ -31,7 +31,7 @@ Yeni anonymous fonksiyonları (closures için desteklenmektedir) PHP 5.3 ile gel
 PHP 5.4 added the ability to bind closures to an object's scope and also improved support for callables such that they
 can be used interchangeably with anonymous functions in almost all cases.
 
-* [PHP'de Fonksiyonel Programlama hakkında](/pages/Functional-Programming.html) 
+* [PHP'de Fonksiyonel Programlama hakkında](/php-the-right-way/pages/Functional-Programming.html) 
 * ["Anonymous Functions" hakkında][anonymous-functions]
 * ["Closure class" hakkında][closure-class]
 * ["Closures RFC" hakkında][closures-rfc]
