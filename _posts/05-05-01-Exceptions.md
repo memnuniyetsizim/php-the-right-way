@@ -38,6 +38,11 @@ catch(Fuel\Email\SendingFailedException $e)
 {
     // The driver could not send the email
 }
+finally
+{
+    // Use this to let user know email was sent
+}
+
 {% endhighlight %}
 
 ### SPL İstisnalar
