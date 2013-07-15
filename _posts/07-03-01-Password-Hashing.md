@@ -12,7 +12,7 @@ Bu aşamada en önemli şey şifre saklanmadan önce [_karıştırılmasıdır (
 
 **`password_hash` ile Şifre Karıştırma**
 
-PHP 5.5 ile `password_hash` fonskiyonu geldi. `password_hash` şu anda PHP'nin desteklediği güçlü bir algoritmaya sahip BCrypt kütüphanesini kullanıyor. Ama gerektiğinde daha fazla algoritmayı desteklemek için güncellenecektir. [`password_compat`][2], password_* fonksiyonlarının PHP 5.3.7'den üstünede destek verebilmek için oluşturulmuş bir kütüphanedir.
+PHP 5.5 ile `password_hash` fonksiyonu geldi. `password_hash` şu anda PHP'nin desteklediği güçlü bir algoritmaya sahip BCrypt kütüphanesini kullanıyor. Ama gerektiğinde daha fazla algoritmayı desteklemek için güncellenecektir. [`password_compat`][2], password_* fonksiyonlarının PHP 5.3.7'den üstünede destek verebilmek için oluşturulmuş bir kütüphanedir.
 
 Aşağıda bir metni karıştıralım, sonra yeni bir metin ile karşılaştıralım. İki metin farklı olduğu için karşılaştırma sonucu yanlış olarak dönecektir. 
 
