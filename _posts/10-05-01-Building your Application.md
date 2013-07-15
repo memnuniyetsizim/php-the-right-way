@@ -1,11 +1,14 @@
 ---
+title: Uygulamanızı Build Etmek ve Deploy Etmek
 isChild: true
 ---
 
-## Building and Deploying your Application {#build_title}
+## Uygulamanızı Build Etmek ve Deploy Etmek {#uygulamanızı_build_etmek_ve_deploy_etmek_title}
 
-If you find yourself doing manual database schema changes or running your tests manually before updating your files 
-(manually), think twice! With every additional manual task needed to deploy a new version of your app, the chances for 
+Eğer dosyalarınızı güncellemeden önce kendinizi elle (manually) veritabanı şemasını güncellerken veya 
+testlerinizi elle (manually) çalıştırıyor buluyorsanız, iki kere düşünün! 
+
+With every additional manual task needed to deploy a new version of your app, the chances for 
 potentially fatal mistakes increase. Whether you're dealing with a simple update, a comprehensive build process or 
 even a continuous integration strategy, [build automation](http://en.wikipedia.org/wiki/Build_automation) is your 
 friend.
