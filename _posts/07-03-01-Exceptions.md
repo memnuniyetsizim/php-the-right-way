@@ -1,8 +1,9 @@
 ---
+title: İstisnalar (Exceptions)
 isChild: true
 ---
 
-## İstisnalar (Exceptions) {#exceptions_title}
+## İstisnalar (Exceptions) {#istisnalar_exceptions_title}
 
 İstisnalar bir çok programlama dilinin en popüler kısmıdır, ama genellikle PHP geliştiriciler için gözden kaçmıştır.
 Ruby gibi dillerde İstisnalar ağır derecede vardır, HTTP isteği hata vermesi, veya veritabanı sorgusu yanlış olduğunda, veya 
